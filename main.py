@@ -6,14 +6,16 @@ from sklearn.decomposition import NMF, LatentDirichletAllocation
 
 
 def split():
-    df = pd.read_csv("suicidewatch.csv")
+    df = pd.read_csv("all.csv")
 
     df["text"] = df["text"].apply(lambda x: re.split('https:\/\/.*', str(x))[0])
     df["text"] = df["text"].str.replace("[\\n]", "", regex=True)
     df["text"] = df["text"].str.replace("[\\r]", "", regex=True)
 
-    df_male = df[df["text"].str.contains('[0-9][0-9]m', regex=True)]
-    df_female = df[df["text"].str.contains('[0-9][0-9]f', regex=True)]
+    df_male = df[df["text"].str.contains('[0-9][0-9](m|(( y\/o| year old)) (dude|boy|guy|man|male))', regex=True)]
+    df_male.to_excel("male.xlsx")
+    df_female = df[df["text"].str.contains('[0-9][0-9](f|(( y\/o| year old)) (woman|lady|girl|female))', regex=True)]
+    df_female.to_excel("female.xlsx")
 
     print(len(df_male))
     print(len(df_female))
@@ -38,10 +40,6 @@ def lda(df_male, df_female):
     # Run LDA
     lda_male = LatentDirichletAllocation(n_components=no_topics, max_iter=5, learning_method='online', learning_offset=50.,random_state=0).fit(tf_male)
     lda_female = LatentDirichletAllocation(n_components=no_topics, max_iter=5, learning_method='online', learning_offset=50.,random_state=0).fit(tf_female)
-
-    while list(set.intersection(*map(set, [tf_feature_names_male + tf_feature_names_female]))) != []:
-        # remove common words
-
 
     return lda_male, lda_female, tf_feature_names_male, tf_feature_names_female
 
