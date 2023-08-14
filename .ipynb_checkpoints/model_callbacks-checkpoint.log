@@ -1,0 +1,612 @@
+2023-08-13 15:16:54,114:INFO:using serial LDA version on this node
+2023-08-13 15:16:54,118:INFO:running online LDA training, 10 topics, 100 passes over the supplied corpus of 168 documents, updating every 14000 documents, evaluating every ~168 documents, iterating 50x with a convergence threshold of 0.001000
+2023-08-13 15:16:54,119:INFO:training LDA model using 7 processes
+2023-08-13 15:16:59,586:INFO:PROGRESS: pass 0, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:16:59,687:DEBUG:updating topics
+2023-08-13 15:16:59,691:INFO:topic #7 (0.610): 0.008*"wa" + 0.005*"im" + 0.005*"like" + 0.005*"feel" + 0.004*"year" + 0.004*"time" + 0.004*"get" + 0.003*"know" + 0.003*"life" + 0.003*"really"
+2023-08-13 15:16:59,692:INFO:topic #3 (0.610): 0.009*"wa" + 0.006*"im" + 0.005*"like" + 0.004*"time" + 0.004*"feel" + 0.004*"year" + 0.004*"get" + 0.004*"life" + 0.003*"want" + 0.003*"anxiety"
+2023-08-13 15:16:59,692:INFO:topic #6 (0.610): 0.008*"wa" + 0.007*"like" + 0.006*"im" + 0.005*"feel" + 0.004*"get" + 0.004*"year" + 0.004*"time" + 0.003*"anxiety" + 0.003*"know" + 0.003*"life"
+2023-08-13 15:16:59,692:INFO:topic #9 (0.610): 0.007*"wa" + 0.006*"im" + 0.005*"like" + 0.004*"feel" + 0.004*"year" + 0.004*"time" + 0.003*"anxiety" + 0.003*"know" + 0.003*"get" + 0.003*"life"
+2023-08-13 15:16:59,692:INFO:topic #8 (0.610): 0.008*"wa" + 0.005*"like" + 0.005*"im" + 0.005*"feel" + 0.005*"time" + 0.004*"get" + 0.004*"year" + 0.004*"day" + 0.004*"anxiety" + 0.003*"life"
+2023-08-13 15:16:59,692:INFO:topic diff=0.585049, rho=1.000000
+2023-08-13 15:16:59,695:DEBUG:bound: at document #0
+2023-08-13 15:16:59,816:INFO:-7.973 per-word bound, 251.3 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:16:59,816:INFO:PROGRESS: pass 1, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:16:59,913:DEBUG:updating topics
+2023-08-13 15:16:59,917:INFO:topic #8 (0.610): 0.010*"wa" + 0.006*"feel" + 0.006*"like" + 0.006*"day" + 0.006*"time" + 0.006*"anxiety" + 0.006*"get" + 0.005*"im" + 0.005*"year" + 0.003*"know"
+2023-08-13 15:16:59,917:INFO:topic #1 (0.610): 0.003*"im" + 0.003*"wa" + 0.003*"like" + 0.002*"life" + 0.002*"know" + 0.002*"get" + 0.002*"feel" + 0.002*"time" + 0.002*"year" + 0.002*"anxiety"
+2023-08-13 15:16:59,917:INFO:topic #6 (0.610): 0.010*"wa" + 0.010*"like" + 0.008*"im" + 0.007*"feel" + 0.006*"year" + 0.006*"get" + 0.006*"time" + 0.004*"know" + 0.004*"anxiety" + 0.004*"want"
+2023-08-13 15:16:59,917:INFO:topic #5 (0.610): 0.003*"wa" + 0.003*"im" + 0.003*"like" + 0.002*"feel" + 0.002*"life" + 0.002*"know" + 0.002*"anxiety" + 0.002*"year" + 0.002*"want" + 0.002*"get"
+2023-08-13 15:16:59,917:INFO:topic #3 (0.610): 0.014*"wa" + 0.008*"im" + 0.006*"like" + 0.006*"time" + 0.006*"year" + 0.006*"life" + 0.006*"feel" + 0.005*"get" + 0.005*"want" + 0.005*"know"
+2023-08-13 15:16:59,917:INFO:topic diff=0.159302, rho=0.692709
+2023-08-13 15:16:59,920:DEBUG:bound: at document #0
+2023-08-13 15:17:00,042:INFO:-7.720 per-word bound, 210.8 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:00,042:INFO:PROGRESS: pass 2, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:00,146:DEBUG:updating topics
+2023-08-13 15:17:00,150:INFO:topic #5 (0.610): 0.002*"wa" + 0.001*"im" + 0.001*"like" + 0.001*"feel" + 0.001*"know" + 0.001*"want" + 0.001*"life" + 0.001*"anxiety" + 0.001*"year" + 0.001*"get"
+2023-08-13 15:17:00,150:INFO:topic #2 (0.610): 0.003*"wa" + 0.003*"im" + 0.002*"like" + 0.002*"anxiety" + 0.002*"feel" + 0.002*"day" + 0.002*"even" + 0.002*"potassium" + 0.002*"know" + 0.002*"get"
+2023-08-13 15:17:00,150:INFO:topic #8 (0.610): 0.008*"wa" + 0.007*"day" + 0.007*"anxiety" + 0.006*"feel" + 0.006*"like" + 0.005*"get" + 0.005*"time" + 0.005*"im" + 0.004*"year" + 0.004*"panic"
+2023-08-13 15:17:00,150:INFO:topic #4 (0.610): 0.002*"wa" + 0.001*"like" + 0.001*"im" + 0.001*"feel" + 0.001*"time" + 0.001*"get" + 0.001*"know" + 0.001*"year" + 0.001*"anxiety" + 0.001*"life"
+2023-08-13 15:17:00,150:INFO:topic #1 (0.610): 0.002*"im" + 0.002*"wa" + 0.002*"like" + 0.001*"life" + 0.001*"know" + 0.001*"ive" + 0.001*"get" + 0.001*"feel" + 0.001*"time" + 0.001*"anxiety"
+2023-08-13 15:17:00,150:INFO:topic diff=0.118298, rho=0.569433
+2023-08-13 15:17:00,154:DEBUG:bound: at document #0
+2023-08-13 15:17:00,306:INFO:-7.600 per-word bound, 194.0 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:00,306:INFO:PROGRESS: pass 3, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:00,390:DEBUG:updating topics
+2023-08-13 15:17:00,393:INFO:topic #9 (0.610): 0.001*"wa" + 0.001*"im" + 0.001*"like" + 0.001*"anxiety" + 0.001*"feel" + 0.001*"know" + 0.001*"year" + 0.001*"time" + 0.001*"life" + 0.001*"get"
+2023-08-13 15:17:00,395:INFO:topic #3 (0.610): 0.017*"wa" + 0.010*"im" + 0.008*"life" + 0.007*"time" + 0.007*"year" + 0.007*"like" + 0.006*"know" + 0.006*"feel" + 0.006*"get" + 0.006*"want"
+2023-08-13 15:17:00,395:INFO:topic #0 (0.610): 0.001*"wa" + 0.001*"like" + 0.001*"im" + 0.001*"anxiety" + 0.001*"year" + 0.001*"feel" + 0.001*"time" + 0.001*"get" + 0.001*"know" + 0.001*"life"
+2023-08-13 15:17:00,395:INFO:topic #4 (0.610): 0.001*"wa" + 0.001*"like" + 0.001*"im" + 0.001*"feel" + 0.001*"time" + 0.001*"get" + 0.001*"know" + 0.001*"year" + 0.001*"anxiety" + 0.001*"life"
+2023-08-13 15:17:00,395:INFO:topic #6 (0.610): 0.012*"like" + 0.010*"wa" + 0.009*"feel" + 0.009*"im" + 0.008*"year" + 0.007*"get" + 0.007*"time" + 0.005*"anxiety" + 0.005*"know" + 0.005*"really"
+2023-08-13 15:17:00,395:INFO:topic diff=0.065629, rho=0.494831
+2023-08-13 15:17:00,398:DEBUG:bound: at document #0
+2023-08-13 15:17:00,513:INFO:-7.556 per-word bound, 188.2 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:00,513:INFO:PROGRESS: pass 4, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:00,594:DEBUG:updating topics
+2023-08-13 15:17:00,597:INFO:topic #6 (0.610): 0.012*"like" + 0.010*"wa" + 0.010*"feel" + 0.009*"im" + 0.008*"year" + 0.007*"get" + 0.007*"time" + 0.006*"anxiety" + 0.005*"know" + 0.005*"really"
+2023-08-13 15:17:00,597:INFO:topic #0 (0.610): 0.001*"wa" + 0.001*"like" + 0.001*"im" + 0.001*"anxiety" + 0.001*"year" + 0.000*"feel" + 0.000*"time" + 0.000*"get" + 0.000*"know" + 0.000*"life"
+2023-08-13 15:17:00,598:INFO:topic #9 (0.610): 0.001*"wa" + 0.001*"im" + 0.001*"like" + 0.001*"anxiety" + 0.001*"feel" + 0.001*"know" + 0.001*"year" + 0.001*"time" + 0.001*"life" + 0.001*"get"
+2023-08-13 15:17:00,598:INFO:topic #4 (0.610): 0.001*"wa" + 0.001*"like" + 0.001*"im" + 0.001*"feel" + 0.001*"time" + 0.001*"get" + 0.001*"know" + 0.001*"year" + 0.001*"anxiety" + 0.001*"life"
+2023-08-13 15:17:00,598:INFO:topic #3 (0.610): 0.017*"wa" + 0.011*"im" + 0.008*"life" + 0.007*"time" + 0.007*"like" + 0.007*"year" + 0.007*"know" + 0.006*"get" + 0.006*"feel" + 0.006*"want"
+2023-08-13 15:17:00,598:INFO:topic diff=0.039564, rho=0.443504
+2023-08-13 15:17:00,603:DEBUG:bound: at document #0
+2023-08-13 15:17:00,712:INFO:-7.536 per-word bound, 185.6 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:00,713:INFO:PROGRESS: pass 5, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:00,794:DEBUG:updating topics
+2023-08-13 15:17:00,798:INFO:topic #0 (0.610): 0.001*"wa" + 0.000*"like" + 0.000*"im" + 0.000*"scaries" + 0.000*"tribe" + 0.000*"quasi" + 0.000*"decently" + 0.000*"tribal" + 0.000*"clown" + 0.000*"familial"
+2023-08-13 15:17:00,798:INFO:topic #2 (0.610): 0.002*"potassium" + 0.001*"eating" + 0.001*"mg" + 0.001*"day" + 0.001*"wa" + 0.001*"food" + 0.001*"im" + 0.001*"anxiety" + 0.001*"like" + 0.001*"certainly"
+2023-08-13 15:17:00,798:INFO:topic #8 (0.610): 0.007*"anxiety" + 0.007*"day" + 0.007*"wa" + 0.005*"mg" + 0.005*"like" + 0.004*"feel" + 0.004*"panic" + 0.004*"get" + 0.004*"time" + 0.004*"heart"
+2023-08-13 15:17:00,798:INFO:topic #4 (0.610): 0.001*"wa" + 0.000*"like" + 0.000*"im" + 0.000*"feel" + 0.000*"time" + 0.000*"get" + 0.000*"know" + 0.000*"year" + 0.000*"anxiety" + 0.000*"life"
+2023-08-13 15:17:00,798:INFO:topic #3 (0.610): 0.018*"wa" + 0.011*"im" + 0.008*"life" + 0.008*"like" + 0.007*"time" + 0.007*"year" + 0.007*"know" + 0.006*"get" + 0.006*"feel" + 0.006*"want"
+2023-08-13 15:17:00,798:INFO:topic diff=0.025711, rho=0.405420
+2023-08-13 15:17:00,801:DEBUG:bound: at document #0
+2023-08-13 15:17:00,915:INFO:-7.526 per-word bound, 184.3 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:00,915:INFO:PROGRESS: pass 6, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:00,994:DEBUG:updating topics
+2023-08-13 15:17:00,997:INFO:topic #9 (0.610): 0.001*"im" + 0.001*"wa" + 0.000*"like" + 0.000*"anxiety" + 0.000*"feel" + 0.000*"know" + 0.000*"year" + 0.000*"time" + 0.000*"life" + 0.000*"ive"
+2023-08-13 15:17:00,998:INFO:topic #1 (0.610): 0.000*"im" + 0.000*"wa" + 0.000*"like" + 0.000*"ive" + 0.000*"know" + 0.000*"codomal" + 0.000*"life" + 0.000*"get" + 0.000*"feel" + 0.000*"anxiety"
+2023-08-13 15:17:00,998:INFO:topic #3 (0.610): 0.018*"wa" + 0.011*"im" + 0.008*"life" + 0.008*"like" + 0.008*"time" + 0.007*"year" + 0.007*"know" + 0.007*"get" + 0.006*"feel" + 0.006*"want"
+2023-08-13 15:17:00,998:INFO:topic #8 (0.610): 0.007*"anxiety" + 0.007*"day" + 0.006*"wa" + 0.005*"mg" + 0.004*"panic" + 0.004*"like" + 0.004*"heart" + 0.004*"get" + 0.004*"feel" + 0.004*"time"
+2023-08-13 15:17:00,998:INFO:topic #6 (0.610): 0.012*"like" + 0.010*"feel" + 0.010*"wa" + 0.009*"im" + 0.008*"year" + 0.007*"get" + 0.007*"time" + 0.006*"anxiety" + 0.006*"know" + 0.005*"really"
+2023-08-13 15:17:00,998:INFO:topic diff=0.017453, rho=0.375717
+2023-08-13 15:17:01,001:DEBUG:bound: at document #0
+2023-08-13 15:17:01,110:INFO:-7.520 per-word bound, 183.5 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:01,110:INFO:PROGRESS: pass 7, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:01,185:DEBUG:updating topics
+2023-08-13 15:17:01,188:INFO:topic #6 (0.610): 0.012*"like" + 0.010*"feel" + 0.010*"wa" + 0.009*"im" + 0.008*"year" + 0.007*"get" + 0.007*"time" + 0.006*"anxiety" + 0.006*"know" + 0.005*"really"
+2023-08-13 15:17:01,189:INFO:topic #9 (0.610): 0.000*"im" + 0.000*"wa" + 0.000*"like" + 0.000*"anxiety" + 0.000*"feel" + 0.000*"know" + 0.000*"year" + 0.000*"time" + 0.000*"life" + 0.000*"ive"
+2023-08-13 15:17:01,189:INFO:topic #2 (0.610): 0.002*"potassium" + 0.001*"eating" + 0.001*"mg" + 0.001*"food" + 0.001*"certainly" + 0.001*"sodium" + 0.001*"bedridden" + 0.001*"hypokalemia" + 0.001*"electrolyte" + 0.001*"nutrition"
+2023-08-13 15:17:01,189:INFO:topic #1 (0.610): 0.000*"im" + 0.000*"wa" + 0.000*"like" + 0.000*"ive" + 0.000*"know" + 0.000*"codomal" + 0.000*"life" + 0.000*"get" + 0.000*"feel" + 0.000*"anxiety"
+2023-08-13 15:17:01,189:INFO:topic #7 (0.610): 0.005*"amp" + 0.002*"almond" + 0.002*"brother" + 0.001*"mum" + 0.001*"like" + 0.001*"le" + 0.001*"ate" + 0.001*"mouth" + 0.001*"hed" + 0.001*"crack"
+2023-08-13 15:17:01,189:INFO:topic diff=0.012703, rho=0.351712
+2023-08-13 15:17:01,192:DEBUG:bound: at document #0
+2023-08-13 15:17:01,305:INFO:-7.516 per-word bound, 183.0 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:01,305:INFO:PROGRESS: pass 8, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:01,384:DEBUG:updating topics
+2023-08-13 15:17:01,388:INFO:topic #3 (0.610): 0.018*"wa" + 0.011*"im" + 0.008*"life" + 0.008*"like" + 0.008*"time" + 0.007*"year" + 0.007*"get" + 0.007*"know" + 0.007*"feel" + 0.006*"want"
+2023-08-13 15:17:01,388:INFO:topic #9 (0.610): 0.000*"im" + 0.000*"wa" + 0.000*"like" + 0.000*"anxiety" + 0.000*"feel" + 0.000*"know" + 0.000*"year" + 0.000*"time" + 0.000*"life" + 0.000*"ive"
+2023-08-13 15:17:01,388:INFO:topic #8 (0.610): 0.007*"anxiety" + 0.006*"day" + 0.005*"mg" + 0.005*"wa" + 0.004*"panic" + 0.004*"heart" + 0.004*"like" + 0.004*"attack" + 0.003*"get" + 0.003*"time"
+2023-08-13 15:17:01,388:INFO:topic #5 (0.610): 0.001*"average" + 0.001*"thru" + 0.001*"weather" + 0.001*"cold" + 0.000*"temp" + 0.000*"dominican" + 0.000*"decreasing" + 0.000*"republic" + 0.000*"weave" + 0.000*"gad"
+2023-08-13 15:17:01,388:INFO:topic #1 (0.610): 0.000*"im" + 0.000*"wa" + 0.000*"like" + 0.000*"ive" + 0.000*"know" + 0.000*"life" + 0.000*"codomal" + 0.000*"get" + 0.000*"feel" + 0.000*"anxiety"
+2023-08-13 15:17:01,389:INFO:topic diff=0.009884, rho=0.331789
+2023-08-13 15:17:01,391:DEBUG:bound: at document #0
+2023-08-13 15:17:01,503:INFO:-7.513 per-word bound, 182.7 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:01,503:INFO:PROGRESS: pass 9, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:01,574:DEBUG:updating topics
+2023-08-13 15:17:01,578:INFO:topic #1 (0.610): 0.000*"im" + 0.000*"wa" + 0.000*"like" + 0.000*"ive" + 0.000*"know" + 0.000*"life" + 0.000*"codomal" + 0.000*"get" + 0.000*"anxiety" + 0.000*"feel"
+2023-08-13 15:17:01,578:INFO:topic #5 (0.610): 0.001*"average" + 0.001*"thru" + 0.001*"weather" + 0.001*"cold" + 0.000*"temp" + 0.000*"dominican" + 0.000*"decreasing" + 0.000*"republic" + 0.000*"weave" + 0.000*"gad"
+2023-08-13 15:17:01,578:INFO:topic #4 (0.610): 0.000*"wa" + 0.000*"like" + 0.000*"im" + 0.000*"feel" + 0.000*"time" + 0.000*"get" + 0.000*"know" + 0.000*"year" + 0.000*"anxiety" + 0.000*"life"
+2023-08-13 15:17:01,578:INFO:topic #8 (0.610): 0.007*"anxiety" + 0.006*"day" + 0.005*"mg" + 0.005*"wa" + 0.004*"heart" + 0.004*"panic" + 0.004*"attack" + 0.003*"like" + 0.003*"get" + 0.003*"time"
+2023-08-13 15:17:01,578:INFO:topic #9 (0.610): 0.000*"im" + 0.000*"wa" + 0.000*"like" + 0.000*"anxiety" + 0.000*"feel" + 0.000*"know" + 0.000*"year" + 0.000*"time" + 0.000*"life" + 0.000*"ive"
+2023-08-13 15:17:01,579:INFO:topic diff=0.008030, rho=0.314908
+2023-08-13 15:17:01,581:DEBUG:bound: at document #0
+2023-08-13 15:17:01,685:INFO:-7.511 per-word bound, 182.4 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:01,685:INFO:PROGRESS: pass 10, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:01,757:DEBUG:updating topics
+2023-08-13 15:17:01,760:INFO:topic #1 (0.610): 0.000*"im" + 0.000*"wa" + 0.000*"like" + 0.000*"ive" + 0.000*"know" + 0.000*"life" + 0.000*"get" + 0.000*"codomal" + 0.000*"anxiety" + 0.000*"feel"
+2023-08-13 15:17:01,760:INFO:topic #4 (0.610): 0.000*"wa" + 0.000*"im" + 0.000*"like" + 0.000*"feel" + 0.000*"time" + 0.000*"get" + 0.000*"know" + 0.000*"year" + 0.000*"anxiety" + 0.000*"life"
+2023-08-13 15:17:01,761:INFO:topic #6 (0.610): 0.012*"like" + 0.010*"feel" + 0.009*"wa" + 0.009*"im" + 0.008*"year" + 0.007*"time" + 0.007*"get" + 0.006*"anxiety" + 0.006*"know" + 0.006*"really"
+2023-08-13 15:17:01,761:INFO:topic #7 (0.610): 0.005*"amp" + 0.002*"almond" + 0.002*"brother" + 0.001*"mum" + 0.001*"ate" + 0.001*"mouth" + 0.001*"crack" + 0.001*"hed" + 0.001*"older" + 0.001*"le"
+2023-08-13 15:17:01,761:INFO:topic #5 (0.610): 0.001*"average" + 0.001*"thru" + 0.001*"weather" + 0.001*"cold" + 0.000*"temp" + 0.000*"dominican" + 0.000*"decreasing" + 0.000*"republic" + 0.000*"weave" + 0.000*"gad"
+2023-08-13 15:17:01,761:INFO:topic diff=0.006766, rho=0.300367
+2023-08-13 15:17:01,763:DEBUG:bound: at document #0
+2023-08-13 15:17:01,868:INFO:-7.509 per-word bound, 182.1 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:01,868:INFO:PROGRESS: pass 11, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:01,938:DEBUG:updating topics
+2023-08-13 15:17:01,941:INFO:topic #4 (0.610): 0.000*"wa" + 0.000*"im" + 0.000*"like" + 0.000*"feel" + 0.000*"time" + 0.000*"get" + 0.000*"know" + 0.000*"year" + 0.000*"anxiety" + 0.000*"life"
+2023-08-13 15:17:01,941:INFO:topic #6 (0.610): 0.012*"like" + 0.010*"feel" + 0.009*"wa" + 0.008*"im" + 0.008*"year" + 0.007*"time" + 0.007*"get" + 0.006*"anxiety" + 0.006*"know" + 0.006*"really"
+2023-08-13 15:17:01,942:INFO:topic #7 (0.610): 0.005*"amp" + 0.002*"almond" + 0.002*"brother" + 0.001*"mum" + 0.001*"ate" + 0.001*"mouth" + 0.001*"crack" + 0.001*"hed" + 0.001*"older" + 0.001*"le"
+2023-08-13 15:17:01,942:INFO:topic #0 (0.610): 0.000*"meaning" + 0.000*"scaries" + 0.000*"tribe" + 0.000*"quasi" + 0.000*"decently" + 0.000*"tribal" + 0.000*"familial" + 0.000*"clown" + 0.000*"catharticword" + 0.000*"merely"
+2023-08-13 15:17:01,942:INFO:topic #5 (0.610): 0.001*"average" + 0.001*"thru" + 0.001*"weather" + 0.001*"cold" + 0.000*"temp" + 0.000*"dominican" + 0.000*"decreasing" + 0.000*"republic" + 0.000*"weave" + 0.000*"gad"
+2023-08-13 15:17:01,942:INFO:topic diff=0.005909, rho=0.287670
+2023-08-13 15:17:01,944:DEBUG:bound: at document #0
+2023-08-13 15:17:02,050:INFO:-7.507 per-word bound, 181.9 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:02,050:INFO:PROGRESS: pass 12, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:02,115:DEBUG:updating topics
+2023-08-13 15:17:02,119:INFO:topic #7 (0.610): 0.005*"amp" + 0.002*"almond" + 0.002*"brother" + 0.001*"mum" + 0.001*"ate" + 0.001*"mouth" + 0.001*"crack" + 0.001*"hed" + 0.001*"older" + 0.001*"swelled"
+2023-08-13 15:17:02,119:INFO:topic #9 (0.610): 0.000*"im" + 0.000*"wa" + 0.000*"like" + 0.000*"anxiety" + 0.000*"feel" + 0.000*"know" + 0.000*"year" + 0.000*"time" + 0.000*"ive" + 0.000*"life"
+2023-08-13 15:17:02,119:INFO:topic #1 (0.610): 0.000*"im" + 0.000*"like" + 0.000*"wa" + 0.000*"ive" + 0.000*"know" + 0.000*"life" + 0.000*"get" + 0.000*"codomal" + 0.000*"anxiety" + 0.000*"feel"
+2023-08-13 15:17:02,120:INFO:topic #0 (0.610): 0.000*"meaning" + 0.000*"scaries" + 0.000*"tribe" + 0.000*"quasi" + 0.000*"familial" + 0.000*"tribal" + 0.000*"decently" + 0.000*"clown" + 0.000*"catharticword" + 0.000*"merely"
+2023-08-13 15:17:02,120:INFO:topic #5 (0.610): 0.001*"average" + 0.001*"thru" + 0.001*"weather" + 0.001*"cold" + 0.000*"temp" + 0.000*"dominican" + 0.000*"decreasing" + 0.000*"republic" + 0.000*"weave" + 0.000*"gad"
+2023-08-13 15:17:02,120:INFO:topic diff=0.005327, rho=0.276458
+2023-08-13 15:17:02,122:DEBUG:bound: at document #0
+2023-08-13 15:17:02,226:INFO:-7.506 per-word bound, 181.7 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:02,226:INFO:PROGRESS: pass 13, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:02,299:DEBUG:updating topics
+2023-08-13 15:17:02,304:INFO:topic #9 (0.610): 0.000*"im" + 0.000*"wa" + 0.000*"like" + 0.000*"anxiety" + 0.000*"know" + 0.000*"feel" + 0.000*"year" + 0.000*"time" + 0.000*"ive" + 0.000*"life"
+2023-08-13 15:17:02,304:INFO:topic #3 (0.610): 0.018*"wa" + 0.012*"im" + 0.009*"like" + 0.008*"life" + 0.008*"time" + 0.008*"year" + 0.007*"get" + 0.007*"feel" + 0.007*"know" + 0.006*"want"
+2023-08-13 15:17:02,304:INFO:topic #1 (0.610): 0.000*"im" + 0.000*"like" + 0.000*"ive" + 0.000*"wa" + 0.000*"know" + 0.000*"life" + 0.000*"get" + 0.000*"anxiety" + 0.000*"codomal" + 0.000*"feel"
+2023-08-13 15:17:02,304:INFO:topic #4 (0.610): 0.000*"wa" + 0.000*"im" + 0.000*"like" + 0.000*"feel" + 0.000*"time" + 0.000*"get" + 0.000*"know" + 0.000*"anxiety" + 0.000*"year" + 0.000*"life"
+2023-08-13 15:17:02,304:INFO:topic #7 (0.610): 0.005*"amp" + 0.002*"almond" + 0.002*"brother" + 0.001*"mum" + 0.001*"ate" + 0.001*"mouth" + 0.001*"crack" + 0.001*"hed" + 0.001*"older" + 0.001*"swelled"
+2023-08-13 15:17:02,305:INFO:topic diff=0.004929, rho=0.266463
+2023-08-13 15:17:02,307:DEBUG:bound: at document #0
+2023-08-13 15:17:02,413:INFO:-7.504 per-word bound, 181.5 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:02,413:INFO:PROGRESS: pass 14, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:02,479:DEBUG:updating topics
+2023-08-13 15:17:02,483:INFO:topic #6 (0.610): 0.012*"like" + 0.010*"feel" + 0.009*"wa" + 0.008*"im" + 0.008*"year" + 0.007*"time" + 0.007*"get" + 0.006*"anxiety" + 0.006*"know" + 0.005*"really"
+2023-08-13 15:17:02,483:INFO:topic #2 (0.610): 0.003*"potassium" + 0.001*"certainly" + 0.001*"sodium" + 0.001*"bedridden" + 0.001*"hypokalemia" + 0.001*"electrolyte" + 0.001*"nutrition" + 0.001*"eating" + 0.001*"mg" + 0.000*"food"
+2023-08-13 15:17:02,483:INFO:topic #1 (0.610): 0.000*"im" + 0.000*"like" + 0.000*"ive" + 0.000*"wa" + 0.000*"know" + 0.000*"life" + 0.000*"get" + 0.000*"anxiety" + 0.000*"codomal" + 0.000*"feel"
+2023-08-13 15:17:02,483:INFO:topic #0 (0.610): 0.000*"sibling" + 0.000*"meaning" + 0.000*"scaries" + 0.000*"tribe" + 0.000*"quasi" + 0.000*"familial" + 0.000*"tribal" + 0.000*"decently" + 0.000*"clown" + 0.000*"catharticword"
+2023-08-13 15:17:02,483:INFO:topic #7 (0.610): 0.005*"amp" + 0.002*"almond" + 0.002*"brother" + 0.001*"mum" + 0.001*"ate" + 0.001*"mouth" + 0.001*"crack" + 0.001*"hed" + 0.001*"older" + 0.001*"swelled"
+2023-08-13 15:17:02,484:INFO:topic diff=0.004642, rho=0.257479
+2023-08-13 15:17:02,486:DEBUG:bound: at document #0
+2023-08-13 15:17:02,599:INFO:-7.503 per-word bound, 181.4 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:02,599:INFO:PROGRESS: pass 15, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:02,662:DEBUG:updating topics
+2023-08-13 15:17:02,666:INFO:topic #5 (0.610): 0.001*"average" + 0.001*"thru" + 0.001*"weather" + 0.000*"cold" + 0.000*"temp" + 0.000*"dominican" + 0.000*"decreasing" + 0.000*"republic" + 0.000*"weave" + 0.000*"gad"
+2023-08-13 15:17:02,666:INFO:topic #7 (0.610): 0.005*"amp" + 0.002*"almond" + 0.002*"brother" + 0.001*"mum" + 0.001*"ate" + 0.001*"mouth" + 0.001*"crack" + 0.001*"hed" + 0.001*"swelled" + 0.001*"lip"
+2023-08-13 15:17:02,666:INFO:topic #3 (0.610): 0.018*"wa" + 0.012*"im" + 0.009*"like" + 0.008*"life" + 0.008*"time" + 0.008*"get" + 0.008*"year" + 0.007*"feel" + 0.007*"know" + 0.006*"day"
+2023-08-13 15:17:02,666:INFO:topic #8 (0.610): 0.006*"anxiety" + 0.005*"mg" + 0.005*"day" + 0.005*"heart" + 0.004*"panic" + 0.004*"attack" + 0.003*"wa" + 0.002*"doe" + 0.002*"like" + 0.002*"severe"
+2023-08-13 15:17:02,666:INFO:topic #0 (0.610): 0.000*"sibling" + 0.000*"meaning" + 0.000*"scaries" + 0.000*"quasi" + 0.000*"tribe" + 0.000*"familial" + 0.000*"tribal" + 0.000*"decently" + 0.000*"clown" + 0.000*"catharticword"
+2023-08-13 15:17:02,666:INFO:topic diff=0.004437, rho=0.249346
+2023-08-13 15:17:02,669:DEBUG:bound: at document #0
+2023-08-13 15:17:02,772:INFO:-7.501 per-word bound, 181.2 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:02,774:INFO:PROGRESS: pass 16, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:02,843:DEBUG:updating topics
+2023-08-13 15:17:02,847:INFO:topic #0 (0.610): 0.000*"sibling" + 0.000*"meaning" + 0.000*"scaries" + 0.000*"quasi" + 0.000*"tribe" + 0.000*"familial" + 0.000*"tribal" + 0.000*"decently" + 0.000*"clown" + 0.000*"catharticword"
+2023-08-13 15:17:02,847:INFO:topic #3 (0.610): 0.018*"wa" + 0.012*"im" + 0.009*"like" + 0.008*"life" + 0.008*"time" + 0.008*"get" + 0.008*"year" + 0.007*"feel" + 0.007*"know" + 0.006*"day"
+2023-08-13 15:17:02,847:INFO:topic #9 (0.610): 0.000*"im" + 0.000*"wa" + 0.000*"anxiety" + 0.000*"like" + 0.000*"know" + 0.000*"feel" + 0.000*"average" + 0.000*"year" + 0.000*"time" + 0.000*"ive"
+2023-08-13 15:17:02,848:INFO:topic #6 (0.610): 0.011*"like" + 0.009*"feel" + 0.008*"wa" + 0.008*"year" + 0.008*"im" + 0.007*"time" + 0.007*"get" + 0.006*"anxiety" + 0.005*"know" + 0.005*"really"
+2023-08-13 15:17:02,848:INFO:topic #8 (0.610): 0.005*"mg" + 0.005*"anxiety" + 0.004*"heart" + 0.004*"day" + 0.004*"panic" + 0.003*"attack" + 0.002*"wa" + 0.002*"doe" + 0.002*"severe" + 0.002*"like"
+2023-08-13 15:17:02,848:INFO:topic diff=0.004276, rho=0.241939
+2023-08-13 15:17:02,850:DEBUG:bound: at document #0
+2023-08-13 15:17:02,952:INFO:-7.500 per-word bound, 181.0 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:02,952:INFO:PROGRESS: pass 17, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:03,022:DEBUG:updating topics
+2023-08-13 15:17:03,026:INFO:topic #9 (0.610): 0.000*"im" + 0.000*"wa" + 0.000*"anxiety" + 0.000*"average" + 0.000*"like" + 0.000*"know" + 0.000*"feel" + 0.000*"tbh" + 0.000*"year" + 0.000*"ive"
+2023-08-13 15:17:03,026:INFO:topic #3 (0.610): 0.018*"wa" + 0.012*"im" + 0.009*"like" + 0.008*"time" + 0.008*"life" + 0.008*"get" + 0.008*"year" + 0.008*"feel" + 0.007*"know" + 0.006*"day"
+2023-08-13 15:17:03,026:INFO:topic #8 (0.610): 0.005*"mg" + 0.005*"anxiety" + 0.004*"heart" + 0.004*"day" + 0.004*"panic" + 0.003*"attack" + 0.002*"wa" + 0.002*"doe" + 0.002*"severe" + 0.002*"week"
+2023-08-13 15:17:03,026:INFO:topic #2 (0.610): 0.002*"potassium" + 0.001*"certainly" + 0.001*"sodium" + 0.001*"bedridden" + 0.001*"hypokalemia" + 0.001*"electrolyte" + 0.001*"nutrition" + 0.001*"eating" + 0.000*"upon" + 0.000*"mg"
+2023-08-13 15:17:03,026:INFO:topic #0 (0.610): 0.000*"sibling" + 0.000*"meaning" + 0.000*"scaries" + 0.000*"quasi" + 0.000*"tribe" + 0.000*"familial" + 0.000*"tribal" + 0.000*"decently" + 0.000*"clown" + 0.000*"catharticword"
+2023-08-13 15:17:03,027:INFO:topic diff=0.004128, rho=0.235154
+2023-08-13 15:17:03,029:DEBUG:bound: at document #0
+2023-08-13 15:17:03,131:INFO:-7.499 per-word bound, 180.8 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:03,131:INFO:PROGRESS: pass 18, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:03,203:DEBUG:updating topics
+2023-08-13 15:17:03,206:INFO:topic #6 (0.610): 0.011*"like" + 0.009*"feel" + 0.008*"wa" + 0.008*"year" + 0.007*"im" + 0.007*"time" + 0.006*"get" + 0.006*"anxiety" + 0.005*"know" + 0.005*"really"
+2023-08-13 15:17:03,207:INFO:topic #4 (0.610): 0.000*"average" + 0.000*"wa" + 0.000*"im" + 0.000*"tbh" + 0.000*"anxiety" + 0.000*"like" + 0.000*"build" + 0.000*"get" + 0.000*"feel" + 0.000*"know"
+2023-08-13 15:17:03,207:INFO:topic #1 (0.610): 0.000*"im" + 0.000*"average" + 0.000*"ive" + 0.000*"like" + 0.000*"tbh" + 0.000*"anxiety" + 0.000*"know" + 0.000*"wa" + 0.000*"get" + 0.000*"life"
+2023-08-13 15:17:03,207:INFO:topic #8 (0.610): 0.005*"mg" + 0.005*"anxiety" + 0.004*"heart" + 0.004*"day" + 0.004*"panic" + 0.003*"attack" + 0.002*"doe" + 0.002*"severe" + 0.002*"wa" + 0.002*"lexapro"
+2023-08-13 15:17:03,207:INFO:topic #7 (0.610): 0.005*"amp" + 0.002*"almond" + 0.002*"brother" + 0.001*"mum" + 0.001*"ate" + 0.001*"mouth" + 0.001*"crack" + 0.001*"hed" + 0.001*"swelled" + 0.001*"lip"
+2023-08-13 15:17:03,207:INFO:topic diff=0.004020, rho=0.228910
+2023-08-13 15:17:03,210:DEBUG:bound: at document #0
+2023-08-13 15:17:03,314:INFO:-7.497 per-word bound, 180.7 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:03,314:INFO:PROGRESS: pass 19, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:03,384:DEBUG:updating topics
+2023-08-13 15:17:03,387:INFO:topic #2 (0.610): 0.002*"potassium" + 0.001*"certainly" + 0.001*"sodium" + 0.001*"bedridden" + 0.001*"hypokalemia" + 0.001*"electrolyte" + 0.001*"nutrition" + 0.001*"eating" + 0.000*"upon" + 0.000*"fearful"
+2023-08-13 15:17:03,387:INFO:topic #3 (0.610): 0.019*"wa" + 0.012*"im" + 0.009*"like" + 0.008*"time" + 0.008*"life" + 0.008*"get" + 0.008*"year" + 0.008*"feel" + 0.007*"know" + 0.006*"day"
+2023-08-13 15:17:03,387:INFO:topic #9 (0.610): 0.000*"average" + 0.000*"im" + 0.000*"tbh" + 0.000*"wa" + 0.000*"anxiety" + 0.000*"build" + 0.000*"santa" + 0.000*"like" + 0.000*"entire" + 0.000*"value"
+2023-08-13 15:17:03,388:INFO:topic #8 (0.610): 0.005*"mg" + 0.004*"anxiety" + 0.004*"heart" + 0.004*"day" + 0.004*"panic" + 0.003*"attack" + 0.002*"doe" + 0.002*"severe" + 0.002*"lexapro" + 0.002*"wa"
+2023-08-13 15:17:03,388:INFO:topic #5 (0.610): 0.001*"average" + 0.001*"thru" + 0.001*"weather" + 0.000*"temp" + 0.000*"dominican" + 0.000*"decreasing" + 0.000*"republic" + 0.000*"weave" + 0.000*"cold" + 0.000*"gad"
+2023-08-13 15:17:03,388:INFO:topic diff=0.003921, rho=0.223139
+2023-08-13 15:17:03,390:DEBUG:bound: at document #0
+2023-08-13 15:17:03,495:INFO:-7.496 per-word bound, 180.5 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:03,496:INFO:PROGRESS: pass 20, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:03,559:DEBUG:updating topics
+2023-08-13 15:17:03,562:INFO:topic #8 (0.610): 0.005*"mg" + 0.004*"heart" + 0.004*"anxiety" + 0.003*"panic" + 0.003*"day" + 0.003*"attack" + 0.002*"doe" + 0.002*"severe" + 0.002*"lexapro" + 0.002*"wa"
+2023-08-13 15:17:03,562:INFO:topic #7 (0.610): 0.005*"amp" + 0.002*"almond" + 0.002*"brother" + 0.001*"mum" + 0.001*"ate" + 0.001*"mouth" + 0.001*"crack" + 0.001*"hed" + 0.001*"swelled" + 0.001*"lip"
+2023-08-13 15:17:03,562:INFO:topic #0 (0.610): 0.000*"sibling" + 0.000*"meaning" + 0.000*"scaries" + 0.000*"quasi" + 0.000*"tribe" + 0.000*"familial" + 0.000*"tribal" + 0.000*"decently" + 0.000*"clown" + 0.000*"catharticword"
+2023-08-13 15:17:03,562:INFO:topic #2 (0.610): 0.002*"potassium" + 0.001*"certainly" + 0.001*"sodium" + 0.001*"bedridden" + 0.001*"hypokalemia" + 0.001*"electrolyte" + 0.001*"nutrition" + 0.001*"eating" + 0.000*"upon" + 0.000*"fearful"
+2023-08-13 15:17:03,562:INFO:topic #4 (0.610): 0.000*"average" + 0.000*"tbh" + 0.000*"build" + 0.000*"santa" + 0.000*"value" + 0.000*"entire" + 0.000*"gad" + 0.000*"rate" + 0.000*"im" + 0.000*"male"
+2023-08-13 15:17:03,563:INFO:topic diff=0.003837, rho=0.217783
+2023-08-13 15:17:03,565:DEBUG:bound: at document #0
+2023-08-13 15:17:03,681:INFO:-7.495 per-word bound, 180.3 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:03,681:INFO:PROGRESS: pass 21, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:03,762:DEBUG:updating topics
+2023-08-13 15:17:03,766:INFO:topic #2 (0.610): 0.002*"potassium" + 0.001*"certainly" + 0.001*"sodium" + 0.001*"bedridden" + 0.001*"hypokalemia" + 0.001*"electrolyte" + 0.001*"nutrition" + 0.000*"eating" + 0.000*"upon" + 0.000*"fearful"
+2023-08-13 15:17:03,766:INFO:topic #7 (0.610): 0.005*"amp" + 0.002*"almond" + 0.002*"brother" + 0.001*"mum" + 0.001*"ate" + 0.001*"mouth" + 0.001*"crack" + 0.001*"hed" + 0.001*"swelled" + 0.001*"lip"
+2023-08-13 15:17:03,766:INFO:topic #0 (0.610): 0.000*"sibling" + 0.000*"scaries" + 0.000*"quasi" + 0.000*"tribe" + 0.000*"familial" + 0.000*"tribal" + 0.000*"decently" + 0.000*"clown" + 0.000*"catharticword" + 0.000*"merely"
+2023-08-13 15:17:03,766:INFO:topic #4 (0.610): 0.000*"average" + 0.000*"tbh" + 0.000*"build" + 0.000*"santa" + 0.000*"value" + 0.000*"gad" + 0.000*"entire" + 0.000*"cost" + 0.000*"dollar" + 0.000*"funeral"
+2023-08-13 15:17:03,766:INFO:topic #5 (0.610): 0.001*"average" + 0.001*"thru" + 0.001*"weather" + 0.000*"temp" + 0.000*"dominican" + 0.000*"decreasing" + 0.000*"republic" + 0.000*"weave" + 0.000*"cold" + 0.000*"gad"
+2023-08-13 15:17:03,766:INFO:topic diff=0.003788, rho=0.212795
+2023-08-13 15:17:03,769:DEBUG:bound: at document #0
+2023-08-13 15:17:03,867:INFO:-7.493 per-word bound, 180.2 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:03,867:INFO:PROGRESS: pass 22, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:03,948:DEBUG:updating topics
+2023-08-13 15:17:03,952:INFO:topic #2 (0.610): 0.002*"potassium" + 0.001*"certainly" + 0.001*"sodium" + 0.001*"bedridden" + 0.001*"hypokalemia" + 0.001*"electrolyte" + 0.001*"nutrition" + 0.000*"eating" + 0.000*"upon" + 0.000*"fearful"
+2023-08-13 15:17:03,952:INFO:topic #3 (0.610): 0.019*"wa" + 0.012*"im" + 0.010*"like" + 0.008*"time" + 0.008*"life" + 0.008*"get" + 0.008*"feel" + 0.008*"year" + 0.007*"know" + 0.006*"day"
+2023-08-13 15:17:03,953:INFO:topic #5 (0.610): 0.001*"average" + 0.001*"thru" + 0.001*"weather" + 0.000*"temp" + 0.000*"dominican" + 0.000*"decreasing" + 0.000*"republic" + 0.000*"weave" + 0.000*"cold" + 0.000*"gad"
+2023-08-13 15:17:03,953:INFO:topic #4 (0.610): 0.000*"average" + 0.000*"tbh" + 0.000*"build" + 0.000*"santa" + 0.000*"gad" + 0.000*"value" + 0.000*"entire" + 0.000*"dollar" + 0.000*"cost" + 0.000*"funeral"
+2023-08-13 15:17:03,953:INFO:topic #8 (0.610): 0.005*"mg" + 0.004*"heart" + 0.004*"anxiety" + 0.003*"panic" + 0.003*"attack" + 0.003*"day" + 0.002*"doe" + 0.002*"severe" + 0.002*"lexapro" + 0.002*"related"
+2023-08-13 15:17:03,953:INFO:topic diff=0.003757, rho=0.208135
+2023-08-13 15:17:03,956:DEBUG:bound: at document #0
+2023-08-13 15:17:04,058:INFO:-7.492 per-word bound, 180.0 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:04,058:INFO:PROGRESS: pass 23, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:04,140:DEBUG:updating topics
+2023-08-13 15:17:04,144:INFO:topic #9 (0.610): 0.000*"average" + 0.000*"tbh" + 0.000*"build" + 0.000*"santa" + 0.000*"gad" + 0.000*"engaged" + 0.000*"value" + 0.000*"dollar" + 0.000*"entire" + 0.000*"cost"
+2023-08-13 15:17:04,144:INFO:topic #1 (0.610): 0.000*"average" + 0.000*"tbh" + 0.000*"build" + 0.000*"santa" + 0.000*"gad" + 0.000*"engaged" + 0.000*"value" + 0.000*"dollar" + 0.000*"entire" + 0.000*"cost"
+2023-08-13 15:17:04,144:INFO:topic #2 (0.610): 0.002*"potassium" + 0.001*"certainly" + 0.001*"sodium" + 0.001*"bedridden" + 0.001*"hypokalemia" + 0.001*"electrolyte" + 0.001*"nutrition" + 0.000*"eating" + 0.000*"upon" + 0.000*"fearful"
+2023-08-13 15:17:04,144:INFO:topic #6 (0.610): 0.011*"like" + 0.009*"feel" + 0.007*"wa" + 0.007*"year" + 0.006*"im" + 0.006*"time" + 0.006*"get" + 0.006*"anxiety" + 0.005*"know" + 0.005*"really"
+2023-08-13 15:17:04,144:INFO:topic #0 (0.610): 0.000*"sibling" + 0.000*"scaries" + 0.000*"quasi" + 0.000*"tribe" + 0.000*"familial" + 0.000*"tribal" + 0.000*"decently" + 0.000*"clown" + 0.000*"catharticword" + 0.000*"merely"
+2023-08-13 15:17:04,145:INFO:topic diff=0.003720, rho=0.203768
+2023-08-13 15:17:04,147:DEBUG:bound: at document #0
+2023-08-13 15:17:04,251:INFO:-7.491 per-word bound, 179.8 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:04,251:INFO:PROGRESS: pass 24, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:04,342:DEBUG:updating topics
+2023-08-13 15:17:04,345:INFO:topic #9 (0.610): 0.000*"average" + 0.000*"tbh" + 0.000*"santa" + 0.000*"build" + 0.000*"engaged" + 0.000*"gad" + 0.000*"dollar" + 0.000*"value" + 0.000*"rain" + 0.000*"pouring"
+2023-08-13 15:17:04,346:INFO:topic #7 (0.610): 0.005*"amp" + 0.002*"almond" + 0.002*"brother" + 0.001*"mum" + 0.001*"ate" + 0.001*"mouth" + 0.001*"crack" + 0.001*"hed" + 0.001*"swelled" + 0.001*"milk"
+2023-08-13 15:17:04,346:INFO:topic #0 (0.610): 0.000*"sibling" + 0.000*"scaries" + 0.000*"quasi" + 0.000*"tribe" + 0.000*"familial" + 0.000*"tribal" + 0.000*"decently" + 0.000*"catharticword" + 0.000*"clown" + 0.000*"merely"
+2023-08-13 15:17:04,346:INFO:topic #3 (0.610): 0.019*"wa" + 0.012*"im" + 0.010*"like" + 0.009*"time" + 0.008*"get" + 0.008*"life" + 0.008*"feel" + 0.008*"year" + 0.007*"know" + 0.007*"day"
+2023-08-13 15:17:04,346:INFO:topic #2 (0.610): 0.002*"potassium" + 0.001*"certainly" + 0.001*"sodium" + 0.001*"bedridden" + 0.001*"hypokalemia" + 0.001*"electrolyte" + 0.001*"nutrition" + 0.000*"eating" + 0.000*"upon" + 0.000*"fearful"
+2023-08-13 15:17:04,346:INFO:topic diff=0.003657, rho=0.199665
+2023-08-13 15:17:04,349:DEBUG:bound: at document #0
+2023-08-13 15:17:04,446:INFO:-7.489 per-word bound, 179.7 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:04,446:INFO:PROGRESS: pass 25, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:04,530:DEBUG:updating topics
+2023-08-13 15:17:04,534:INFO:topic #3 (0.610): 0.019*"wa" + 0.012*"im" + 0.010*"like" + 0.009*"time" + 0.008*"get" + 0.008*"feel" + 0.008*"life" + 0.008*"year" + 0.007*"know" + 0.007*"day"
+2023-08-13 15:17:04,535:INFO:topic #7 (0.610): 0.005*"amp" + 0.002*"almond" + 0.002*"brother" + 0.001*"mum" + 0.001*"ate" + 0.001*"mouth" + 0.001*"crack" + 0.001*"hed" + 0.001*"swelled" + 0.001*"milk"
+2023-08-13 15:17:04,535:INFO:topic #6 (0.610): 0.010*"like" + 0.009*"feel" + 0.007*"year" + 0.007*"wa" + 0.006*"time" + 0.006*"im" + 0.006*"get" + 0.006*"anxiety" + 0.005*"really" + 0.005*"know"
+2023-08-13 15:17:04,535:INFO:topic #4 (0.610): 0.000*"average" + 0.000*"tbh" + 0.000*"engaged" + 0.000*"santa" + 0.000*"build" + 0.000*"gad" + 0.000*"rain" + 0.000*"pouring" + 0.000*"despair" + 0.000*"dollar"
+2023-08-13 15:17:04,535:INFO:topic #1 (0.610): 0.000*"average" + 0.000*"tbh" + 0.000*"engaged" + 0.000*"santa" + 0.000*"build" + 0.000*"gad" + 0.000*"rain" + 0.000*"pouring" + 0.000*"despair" + 0.000*"dollar"
+2023-08-13 15:17:04,535:INFO:topic diff=0.003584, rho=0.195800
+2023-08-13 15:17:04,538:DEBUG:bound: at document #0
+2023-08-13 15:17:04,634:INFO:-7.488 per-word bound, 179.5 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:04,635:INFO:PROGRESS: pass 26, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:04,713:DEBUG:updating topics
+2023-08-13 15:17:04,716:INFO:topic #0 (0.610): 0.000*"sibling" + 0.000*"scaries" + 0.000*"quasi" + 0.000*"tribe" + 0.000*"familial" + 0.000*"tribal" + 0.000*"decently" + 0.000*"catharticword" + 0.000*"clown" + 0.000*"merely"
+2023-08-13 15:17:04,717:INFO:topic #8 (0.610): 0.005*"mg" + 0.004*"heart" + 0.003*"anxiety" + 0.003*"panic" + 0.003*"attack" + 0.002*"day" + 0.002*"doe" + 0.002*"lexapro" + 0.002*"severe" + 0.002*"related"
+2023-08-13 15:17:04,717:INFO:topic #9 (0.610): 0.000*"average" + 0.000*"tbh" + 0.000*"engaged" + 0.000*"santa" + 0.000*"rain" + 0.000*"pouring" + 0.000*"build" + 0.000*"gad" + 0.000*"dollar" + 0.000*"despair"
+2023-08-13 15:17:04,717:INFO:topic #3 (0.610): 0.019*"wa" + 0.012*"im" + 0.010*"like" + 0.009*"time" + 0.008*"get" + 0.008*"feel" + 0.008*"life" + 0.008*"year" + 0.007*"know" + 0.007*"day"
+2023-08-13 15:17:04,717:INFO:topic #1 (0.610): 0.000*"average" + 0.000*"tbh" + 0.000*"engaged" + 0.000*"santa" + 0.000*"rain" + 0.000*"pouring" + 0.000*"build" + 0.000*"gad" + 0.000*"despair" + 0.000*"dollar"
+2023-08-13 15:17:04,717:INFO:topic diff=0.003514, rho=0.192151
+2023-08-13 15:17:04,720:DEBUG:bound: at document #0
+2023-08-13 15:17:04,818:INFO:-7.486 per-word bound, 179.3 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:04,818:INFO:PROGRESS: pass 27, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:04,889:DEBUG:updating topics
+2023-08-13 15:17:04,892:INFO:topic #2 (0.610): 0.002*"potassium" + 0.001*"certainly" + 0.001*"sodium" + 0.001*"bedridden" + 0.001*"hypokalemia" + 0.001*"electrolyte" + 0.001*"nutrition" + 0.000*"upon" + 0.000*"fearful" + 0.000*"specifically"
+2023-08-13 15:17:04,892:INFO:topic #0 (0.610): 0.000*"sibling" + 0.000*"scaries" + 0.000*"quasi" + 0.000*"tribe" + 0.000*"familial" + 0.000*"tribal" + 0.000*"decently" + 0.000*"catharticword" + 0.000*"clown" + 0.000*"merely"
+2023-08-13 15:17:04,892:INFO:topic #3 (0.610): 0.019*"wa" + 0.012*"im" + 0.010*"like" + 0.009*"time" + 0.008*"get" + 0.008*"feel" + 0.008*"life" + 0.008*"year" + 0.007*"know" + 0.007*"day"
+2023-08-13 15:17:04,893:INFO:topic #9 (0.610): 0.000*"average" + 0.000*"tbh" + 0.000*"rain" + 0.000*"pouring" + 0.000*"engaged" + 0.000*"santa" + 0.000*"build" + 0.000*"gad" + 0.000*"dollar" + 0.000*"hello"
+2023-08-13 15:17:04,893:INFO:topic #8 (0.610): 0.005*"mg" + 0.004*"heart" + 0.003*"panic" + 0.003*"anxiety" + 0.002*"attack" + 0.002*"day" + 0.002*"doe" + 0.002*"lexapro" + 0.002*"related" + 0.002*"severe"
+2023-08-13 15:17:04,893:INFO:topic diff=0.003431, rho=0.188699
+2023-08-13 15:17:04,895:DEBUG:bound: at document #0
+2023-08-13 15:17:04,987:INFO:-7.485 per-word bound, 179.2 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:04,988:INFO:PROGRESS: pass 28, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:05,058:DEBUG:updating topics
+2023-08-13 15:17:05,062:INFO:topic #7 (0.610): 0.005*"amp" + 0.002*"almond" + 0.002*"brother" + 0.001*"mum" + 0.001*"ate" + 0.001*"mouth" + 0.001*"crack" + 0.001*"hed" + 0.001*"swelled" + 0.001*"milk"
+2023-08-13 15:17:05,062:INFO:topic #5 (0.610): 0.001*"average" + 0.001*"thru" + 0.001*"weather" + 0.000*"temp" + 0.000*"dominican" + 0.000*"decreasing" + 0.000*"republic" + 0.000*"weave" + 0.000*"cold" + 0.000*"gad"
+2023-08-13 15:17:05,063:INFO:topic #2 (0.610): 0.002*"potassium" + 0.001*"certainly" + 0.001*"sodium" + 0.001*"bedridden" + 0.001*"hypokalemia" + 0.001*"electrolyte" + 0.001*"nutrition" + 0.000*"upon" + 0.000*"fearful" + 0.000*"specifically"
+2023-08-13 15:17:05,063:INFO:topic #9 (0.610): 0.000*"average" + 0.000*"tbh" + 0.000*"rain" + 0.000*"pouring" + 0.000*"engaged" + 0.000*"santa" + 0.000*"gad" + 0.000*"build" + 0.000*"hello" + 0.000*"dollar"
+2023-08-13 15:17:05,063:INFO:topic #3 (0.610): 0.019*"wa" + 0.012*"im" + 0.010*"like" + 0.009*"time" + 0.008*"get" + 0.008*"feel" + 0.008*"year" + 0.008*"life" + 0.007*"know" + 0.007*"day"
+2023-08-13 15:17:05,063:INFO:topic diff=0.003341, rho=0.185427
+2023-08-13 15:17:05,065:DEBUG:bound: at document #0
+2023-08-13 15:17:05,161:INFO:-7.484 per-word bound, 179.0 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:05,161:INFO:PROGRESS: pass 29, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:05,216:DEBUG:updating topics
+2023-08-13 15:17:05,219:INFO:topic #0 (0.610): 0.000*"sibling" + 0.000*"scaries" + 0.000*"quasi" + 0.000*"tribe" + 0.000*"familial" + 0.000*"tribal" + 0.000*"decently" + 0.000*"catharticword" + 0.000*"clown" + 0.000*"merely"
+2023-08-13 15:17:05,219:INFO:topic #5 (0.610): 0.001*"average" + 0.001*"thru" + 0.001*"weather" + 0.000*"temp" + 0.000*"dominican" + 0.000*"decreasing" + 0.000*"republic" + 0.000*"weave" + 0.000*"cold" + 0.000*"gad"
+2023-08-13 15:17:05,220:INFO:topic #9 (0.610): 0.000*"average" + 0.000*"tbh" + 0.000*"rain" + 0.000*"pouring" + 0.000*"santa" + 0.000*"engaged" + 0.000*"gad" + 0.000*"build" + 0.000*"hello" + 0.000*"dollar"
+2023-08-13 15:17:05,220:INFO:topic #4 (0.610): 0.000*"average" + 0.000*"tbh" + 0.000*"rain" + 0.000*"pouring" + 0.000*"santa" + 0.000*"engaged" + 0.000*"gad" + 0.000*"build" + 0.000*"hello" + 0.000*"dollar"
+2023-08-13 15:17:05,220:INFO:topic #3 (0.610): 0.019*"wa" + 0.013*"im" + 0.010*"like" + 0.009*"time" + 0.008*"get" + 0.008*"feel" + 0.008*"year" + 0.008*"life" + 0.007*"know" + 0.007*"day"
+2023-08-13 15:17:05,220:INFO:topic diff=0.003253, rho=0.182319
+2023-08-13 15:17:05,223:DEBUG:bound: at document #0
+2023-08-13 15:17:05,314:INFO:-7.483 per-word bound, 178.9 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:05,314:INFO:PROGRESS: pass 30, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:05,376:DEBUG:updating topics
+2023-08-13 15:17:05,379:INFO:topic #8 (0.610): 0.004*"mg" + 0.004*"heart" + 0.002*"attack" + 0.002*"panic" + 0.002*"anxiety" + 0.002*"doe" + 0.002*"lexapro" + 0.002*"related" + 0.002*"day" + 0.002*"rate"
+2023-08-13 15:17:05,380:INFO:topic #0 (0.610): 0.000*"sibling" + 0.000*"quasi" + 0.000*"scaries" + 0.000*"tribe" + 0.000*"familial" + 0.000*"tribal" + 0.000*"decently" + 0.000*"catharticword" + 0.000*"clown" + 0.000*"merely"
+2023-08-13 15:17:05,380:INFO:topic #5 (0.610): 0.001*"average" + 0.001*"thru" + 0.001*"weather" + 0.000*"temp" + 0.000*"dominican" + 0.000*"decreasing" + 0.000*"republic" + 0.000*"weave" + 0.000*"cold" + 0.000*"gad"
+2023-08-13 15:17:05,380:INFO:topic #9 (0.610): 0.000*"average" + 0.000*"rain" + 0.000*"pouring" + 0.000*"tbh" + 0.000*"santa" + 0.000*"engaged" + 0.000*"gad" + 0.000*"hello" + 0.000*"build" + 0.000*"dollar"
+2023-08-13 15:17:05,380:INFO:topic #7 (0.610): 0.004*"amp" + 0.002*"almond" + 0.001*"brother" + 0.001*"mum" + 0.001*"ate" + 0.001*"mouth" + 0.001*"crack" + 0.001*"hed" + 0.001*"swelled" + 0.001*"milk"
+2023-08-13 15:17:05,380:INFO:topic diff=0.003172, rho=0.179362
+2023-08-13 15:17:05,383:DEBUG:bound: at document #0
+2023-08-13 15:17:05,474:INFO:-7.481 per-word bound, 178.7 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:05,475:INFO:PROGRESS: pass 31, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:05,527:DEBUG:updating topics
+2023-08-13 15:17:05,530:INFO:topic #9 (0.610): 0.000*"average" + 0.000*"rain" + 0.000*"pouring" + 0.000*"tbh" + 0.000*"santa" + 0.000*"hello" + 0.000*"gad" + 0.000*"engaged" + 0.000*"build" + 0.000*"dollar"
+2023-08-13 15:17:05,531:INFO:topic #2 (0.610): 0.002*"potassium" + 0.001*"certainly" + 0.001*"sodium" + 0.001*"bedridden" + 0.001*"hypokalemia" + 0.001*"electrolyte" + 0.001*"nutrition" + 0.000*"upon" + 0.000*"fearful" + 0.000*"specifically"
+2023-08-13 15:17:05,531:INFO:topic #0 (0.610): 0.000*"sibling" + 0.000*"quasi" + 0.000*"scaries" + 0.000*"tribe" + 0.000*"familial" + 0.000*"tribal" + 0.000*"decently" + 0.000*"catharticword" + 0.000*"clown" + 0.000*"merely"
+2023-08-13 15:17:05,531:INFO:topic #8 (0.610): 0.004*"mg" + 0.004*"heart" + 0.002*"attack" + 0.002*"panic" + 0.002*"doe" + 0.002*"anxiety" + 0.002*"lexapro" + 0.002*"related" + 0.002*"rate" + 0.001*"day"
+2023-08-13 15:17:05,531:INFO:topic #5 (0.610): 0.001*"average" + 0.001*"thru" + 0.001*"weather" + 0.000*"temp" + 0.000*"dominican" + 0.000*"decreasing" + 0.000*"republic" + 0.000*"weave" + 0.000*"cold" + 0.000*"gad"
+2023-08-13 15:17:05,531:INFO:topic diff=0.003097, rho=0.176545
+2023-08-13 15:17:05,533:DEBUG:bound: at document #0
+2023-08-13 15:17:05,627:INFO:-7.480 per-word bound, 178.6 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:05,627:INFO:PROGRESS: pass 32, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:05,695:DEBUG:updating topics
+2023-08-13 15:17:05,698:INFO:topic #4 (0.610): 0.000*"average" + 0.000*"rain" + 0.000*"pouring" + 0.000*"tbh" + 0.000*"santa" + 0.000*"hello" + 0.000*"gad" + 0.000*"engaged" + 0.000*"build" + 0.000*"difference"
+2023-08-13 15:17:05,699:INFO:topic #5 (0.610): 0.001*"average" + 0.001*"thru" + 0.001*"weather" + 0.000*"temp" + 0.000*"dominican" + 0.000*"decreasing" + 0.000*"republic" + 0.000*"weave" + 0.000*"cold" + 0.000*"gad"
+2023-08-13 15:17:05,699:INFO:topic #7 (0.610): 0.004*"amp" + 0.002*"almond" + 0.001*"brother" + 0.001*"mum" + 0.001*"ate" + 0.001*"mouth" + 0.001*"crack" + 0.001*"hed" + 0.001*"swelled" + 0.001*"milk"
+2023-08-13 15:17:05,699:INFO:topic #6 (0.610): 0.009*"like" + 0.008*"feel" + 0.006*"year" + 0.006*"wa" + 0.005*"time" + 0.005*"anxiety" + 0.005*"get" + 0.004*"really" + 0.004*"know" + 0.004*"thing"
+2023-08-13 15:17:05,699:INFO:topic #1 (0.610): 0.000*"average" + 0.000*"rain" + 0.000*"pouring" + 0.000*"tbh" + 0.000*"santa" + 0.000*"hello" + 0.000*"gad" + 0.000*"engaged" + 0.000*"build" + 0.000*"difference"
+2023-08-13 15:17:05,699:INFO:topic diff=0.003033, rho=0.173857
+2023-08-13 15:17:05,702:DEBUG:bound: at document #0
+2023-08-13 15:17:05,804:INFO:-7.479 per-word bound, 178.4 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:05,804:INFO:PROGRESS: pass 33, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:05,861:DEBUG:updating topics
+2023-08-13 15:17:05,865:INFO:topic #6 (0.610): 0.009*"like" + 0.008*"feel" + 0.006*"year" + 0.005*"wa" + 0.005*"time" + 0.005*"anxiety" + 0.005*"get" + 0.004*"really" + 0.004*"know" + 0.004*"thing"
+2023-08-13 15:17:05,865:INFO:topic #2 (0.610): 0.002*"potassium" + 0.001*"certainly" + 0.001*"sodium" + 0.001*"bedridden" + 0.001*"hypokalemia" + 0.001*"electrolyte" + 0.001*"nutrition" + 0.000*"upon" + 0.000*"fearful" + 0.000*"specifically"
+2023-08-13 15:17:05,865:INFO:topic #9 (0.610): 0.000*"average" + 0.000*"rain" + 0.000*"pouring" + 0.000*"tbh" + 0.000*"santa" + 0.000*"hello" + 0.000*"gad" + 0.000*"build" + 0.000*"difference" + 0.000*"engaged"
+2023-08-13 15:17:05,865:INFO:topic #7 (0.610): 0.004*"amp" + 0.002*"almond" + 0.001*"brother" + 0.001*"mum" + 0.001*"ate" + 0.001*"mouth" + 0.001*"crack" + 0.001*"hed" + 0.001*"swelled" + 0.001*"milk"
+2023-08-13 15:17:05,865:INFO:topic #8 (0.610): 0.004*"mg" + 0.004*"heart" + 0.002*"attack" + 0.002*"panic" + 0.002*"doe" + 0.002*"lexapro" + 0.002*"related" + 0.002*"anxiety" + 0.001*"rate" + 0.001*"hello"
+2023-08-13 15:17:05,865:INFO:topic diff=0.002981, rho=0.171287
+2023-08-13 15:17:05,868:DEBUG:bound: at document #0
+2023-08-13 15:17:05,963:INFO:-7.478 per-word bound, 178.3 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:05,963:INFO:PROGRESS: pass 34, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:06,030:DEBUG:updating topics
+2023-08-13 15:17:06,034:INFO:topic #5 (0.610): 0.001*"average" + 0.001*"thru" + 0.001*"weather" + 0.000*"temp" + 0.000*"dominican" + 0.000*"decreasing" + 0.000*"republic" + 0.000*"weave" + 0.000*"cold" + 0.000*"gad"
+2023-08-13 15:17:06,035:INFO:topic #7 (0.610): 0.004*"amp" + 0.002*"almond" + 0.001*"brother" + 0.001*"mum" + 0.001*"ate" + 0.001*"mouth" + 0.001*"crack" + 0.001*"hed" + 0.001*"swelled" + 0.001*"milk"
+2023-08-13 15:17:06,035:INFO:topic #8 (0.610): 0.004*"mg" + 0.004*"heart" + 0.002*"attack" + 0.002*"doe" + 0.002*"panic" + 0.002*"lexapro" + 0.002*"related" + 0.001*"rate" + 0.001*"anxiety" + 0.001*"hello"
+2023-08-13 15:17:06,035:INFO:topic #2 (0.610): 0.002*"potassium" + 0.001*"certainly" + 0.001*"sodium" + 0.001*"bedridden" + 0.001*"hypokalemia" + 0.001*"electrolyte" + 0.001*"nutrition" + 0.000*"upon" + 0.000*"specifically" + 0.000*"fearful"
+2023-08-13 15:17:06,035:INFO:topic #6 (0.610): 0.009*"like" + 0.008*"feel" + 0.006*"year" + 0.005*"wa" + 0.005*"anxiety" + 0.005*"time" + 0.005*"get" + 0.004*"really" + 0.004*"know" + 0.004*"thing"
+2023-08-13 15:17:06,036:INFO:topic diff=0.002936, rho=0.168828
+2023-08-13 15:17:06,039:DEBUG:bound: at document #0
+2023-08-13 15:17:06,143:INFO:-7.477 per-word bound, 178.1 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:06,143:INFO:PROGRESS: pass 35, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:06,194:DEBUG:updating topics
+2023-08-13 15:17:06,198:INFO:topic #9 (0.610): 0.000*"rain" + 0.000*"pouring" + 0.000*"average" + 0.000*"tbh" + 0.000*"santa" + 0.000*"hello" + 0.000*"difference" + 0.000*"gad" + 0.000*"build" + 0.000*"similar"
+2023-08-13 15:17:06,200:INFO:topic #1 (0.610): 0.000*"rain" + 0.000*"pouring" + 0.000*"average" + 0.000*"tbh" + 0.000*"santa" + 0.000*"hello" + 0.000*"difference" + 0.000*"gad" + 0.000*"build" + 0.000*"similar"
+2023-08-13 15:17:06,200:INFO:topic #6 (0.610): 0.009*"like" + 0.007*"feel" + 0.006*"year" + 0.005*"wa" + 0.005*"anxiety" + 0.005*"time" + 0.004*"get" + 0.004*"really" + 0.004*"know" + 0.004*"thing"
+2023-08-13 15:17:06,200:INFO:topic #5 (0.610): 0.001*"average" + 0.001*"thru" + 0.001*"weather" + 0.000*"dominican" + 0.000*"temp" + 0.000*"decreasing" + 0.000*"republic" + 0.000*"weave" + 0.000*"cold" + 0.000*"gad"
+2023-08-13 15:17:06,200:INFO:topic #0 (0.610): 0.000*"sibling" + 0.000*"scaries" + 0.000*"quasi" + 0.000*"tribe" + 0.000*"tribal" + 0.000*"familial" + 0.000*"decently" + 0.000*"catharticword" + 0.000*"clown" + 0.000*"merely"
+2023-08-13 15:17:06,200:INFO:topic diff=0.002900, rho=0.166473
+2023-08-13 15:17:06,204:DEBUG:bound: at document #0
+2023-08-13 15:17:06,297:INFO:-7.476 per-word bound, 178.0 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:06,297:INFO:PROGRESS: pass 36, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:06,352:DEBUG:updating topics
+2023-08-13 15:17:06,356:INFO:topic #5 (0.610): 0.001*"average" + 0.001*"thru" + 0.001*"weather" + 0.000*"dominican" + 0.000*"temp" + 0.000*"decreasing" + 0.000*"republic" + 0.000*"weave" + 0.000*"cold" + 0.000*"gad"
+2023-08-13 15:17:06,356:INFO:topic #7 (0.610): 0.004*"amp" + 0.002*"almond" + 0.001*"brother" + 0.001*"mum" + 0.001*"ate" + 0.001*"mouth" + 0.001*"crack" + 0.001*"hed" + 0.001*"swelled" + 0.001*"milk"
+2023-08-13 15:17:06,356:INFO:topic #4 (0.610): 0.000*"rain" + 0.000*"pouring" + 0.000*"average" + 0.000*"tbh" + 0.000*"santa" + 0.000*"difference" + 0.000*"hello" + 0.000*"ireland" + 0.000*"gad" + 0.000*"similar"
+2023-08-13 15:17:06,356:INFO:topic #8 (0.610): 0.004*"heart" + 0.003*"mg" + 0.002*"lexapro" + 0.002*"doe" + 0.002*"attack" + 0.002*"related" + 0.002*"panic" + 0.001*"rate" + 0.001*"anxiety" + 0.001*"hello"
+2023-08-13 15:17:06,356:INFO:topic #1 (0.610): 0.000*"rain" + 0.000*"pouring" + 0.000*"average" + 0.000*"tbh" + 0.000*"santa" + 0.000*"difference" + 0.000*"hello" + 0.000*"ireland" + 0.000*"gad" + 0.000*"similar"
+2023-08-13 15:17:06,357:INFO:topic diff=0.002871, rho=0.164213
+2023-08-13 15:17:06,359:DEBUG:bound: at document #0
+2023-08-13 15:17:06,451:INFO:-7.475 per-word bound, 177.9 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:06,451:INFO:PROGRESS: pass 37, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:06,499:DEBUG:updating topics
+2023-08-13 15:17:06,503:INFO:topic #6 (0.610): 0.008*"like" + 0.007*"feel" + 0.006*"year" + 0.005*"anxiety" + 0.005*"time" + 0.005*"wa" + 0.004*"get" + 0.004*"thing" + 0.004*"know" + 0.004*"really"
+2023-08-13 15:17:06,503:INFO:topic #2 (0.610): 0.002*"potassium" + 0.001*"certainly" + 0.001*"sodium" + 0.001*"bedridden" + 0.001*"hypokalemia" + 0.001*"electrolyte" + 0.001*"nutrition" + 0.000*"upon" + 0.000*"specifically" + 0.000*"ma"
+2023-08-13 15:17:06,503:INFO:topic #5 (0.610): 0.001*"average" + 0.001*"thru" + 0.001*"weather" + 0.000*"dominican" + 0.000*"temp" + 0.000*"decreasing" + 0.000*"republic" + 0.000*"weave" + 0.000*"cold" + 0.000*"gad"
+2023-08-13 15:17:06,503:INFO:topic #4 (0.610): 0.000*"rain" + 0.000*"pouring" + 0.000*"average" + 0.000*"tbh" + 0.000*"difference" + 0.000*"santa" + 0.000*"ireland" + 0.000*"hello" + 0.000*"gad" + 0.000*"similar"
+2023-08-13 15:17:06,503:INFO:topic #7 (0.610): 0.004*"amp" + 0.002*"almond" + 0.001*"brother" + 0.001*"mum" + 0.001*"ate" + 0.001*"mouth" + 0.001*"crack" + 0.001*"hed" + 0.001*"swelled" + 0.001*"milk"
+2023-08-13 15:17:06,503:INFO:topic diff=0.002853, rho=0.162042
+2023-08-13 15:17:06,506:DEBUG:bound: at document #0
+2023-08-13 15:17:06,596:INFO:-7.473 per-word bound, 177.7 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:06,596:INFO:PROGRESS: pass 38, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:06,647:DEBUG:updating topics
+2023-08-13 15:17:06,653:INFO:topic #4 (0.610): 0.000*"rain" + 0.000*"pouring" + 0.000*"average" + 0.000*"tbh" + 0.000*"ireland" + 0.000*"difference" + 0.000*"santa" + 0.000*"hello" + 0.000*"gad" + 0.000*"similar"
+2023-08-13 15:17:06,653:INFO:topic #3 (0.610): 0.018*"wa" + 0.013*"im" + 0.011*"like" + 0.009*"time" + 0.009*"feel" + 0.008*"get" + 0.008*"year" + 0.008*"life" + 0.007*"know" + 0.007*"anxiety"
+2023-08-13 15:17:06,653:INFO:topic #6 (0.610): 0.008*"like" + 0.007*"feel" + 0.006*"year" + 0.005*"anxiety" + 0.004*"time" + 0.004*"wa" + 0.004*"get" + 0.004*"thing" + 0.004*"know" + 0.004*"really"
+2023-08-13 15:17:06,653:INFO:topic #5 (0.610): 0.001*"average" + 0.001*"thru" + 0.001*"weather" + 0.000*"dominican" + 0.000*"temp" + 0.000*"decreasing" + 0.000*"republic" + 0.000*"weave" + 0.000*"cold" + 0.000*"gad"
+2023-08-13 15:17:06,653:INFO:topic #9 (0.610): 0.000*"rain" + 0.000*"pouring" + 0.000*"average" + 0.000*"tbh" + 0.000*"ireland" + 0.000*"difference" + 0.000*"santa" + 0.000*"hello" + 0.000*"gad" + 0.000*"similar"
+2023-08-13 15:17:06,654:INFO:topic diff=0.002844, rho=0.159956
+2023-08-13 15:17:06,657:DEBUG:bound: at document #0
+2023-08-13 15:17:06,740:INFO:-7.472 per-word bound, 177.6 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:06,740:INFO:PROGRESS: pass 39, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:06,788:DEBUG:updating topics
+2023-08-13 15:17:06,793:INFO:topic #1 (0.610): 0.000*"rain" + 0.000*"pouring" + 0.000*"average" + 0.000*"tbh" + 0.000*"ireland" + 0.000*"difference" + 0.000*"santa" + 0.000*"hello" + 0.000*"gad" + 0.000*"similar"
+2023-08-13 15:17:06,793:INFO:topic #3 (0.610): 0.018*"wa" + 0.013*"im" + 0.011*"like" + 0.009*"time" + 0.009*"feel" + 0.008*"get" + 0.008*"year" + 0.008*"life" + 0.007*"know" + 0.007*"anxiety"
+2023-08-13 15:17:06,793:INFO:topic #7 (0.610): 0.004*"amp" + 0.002*"almond" + 0.001*"brother" + 0.001*"ate" + 0.001*"mum" + 0.001*"mouth" + 0.001*"crack" + 0.001*"hed" + 0.001*"swelled" + 0.001*"milk"
+2023-08-13 15:17:06,793:INFO:topic #8 (0.610): 0.003*"heart" + 0.003*"mg" + 0.002*"lexapro" + 0.002*"doe" + 0.002*"related" + 0.001*"rate" + 0.001*"attack" + 0.001*"panic" + 0.001*"episode" + 0.001*"blood"
+2023-08-13 15:17:06,793:INFO:topic #5 (0.610): 0.001*"average" + 0.001*"thru" + 0.001*"weather" + 0.000*"temp" + 0.000*"dominican" + 0.000*"decreasing" + 0.000*"republic" + 0.000*"weave" + 0.000*"cold" + 0.000*"gad"
+2023-08-13 15:17:06,793:INFO:topic diff=0.002839, rho=0.157948
+2023-08-13 15:17:06,796:DEBUG:bound: at document #0
+2023-08-13 15:17:06,880:INFO:-7.471 per-word bound, 177.4 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:06,880:INFO:PROGRESS: pass 40, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:06,925:DEBUG:updating topics
+2023-08-13 15:17:06,928:INFO:topic #1 (0.610): 0.000*"rain" + 0.000*"pouring" + 0.000*"average" + 0.000*"ireland" + 0.000*"tbh" + 0.000*"difference" + 0.000*"santa" + 0.000*"hello" + 0.000*"similar" + 0.000*"painfully"
+2023-08-13 15:17:06,928:INFO:topic #7 (0.610): 0.003*"amp" + 0.002*"almond" + 0.001*"brother" + 0.001*"ate" + 0.001*"mum" + 0.001*"mouth" + 0.001*"crack" + 0.001*"hed" + 0.001*"swelled" + 0.001*"milk"
+2023-08-13 15:17:06,929:INFO:topic #0 (0.610): 0.000*"sibling" + 0.000*"quasi" + 0.000*"tribe" + 0.000*"scaries" + 0.000*"familial" + 0.000*"decently" + 0.000*"tribal" + 0.000*"catharticword" + 0.000*"clown" + 0.000*"merely"
+2023-08-13 15:17:06,929:INFO:topic #9 (0.610): 0.000*"rain" + 0.000*"pouring" + 0.000*"average" + 0.000*"ireland" + 0.000*"tbh" + 0.000*"difference" + 0.000*"santa" + 0.000*"hello" + 0.000*"similar" + 0.000*"painfully"
+2023-08-13 15:17:06,929:INFO:topic #5 (0.610): 0.001*"average" + 0.001*"thru" + 0.001*"weather" + 0.000*"temp" + 0.000*"dominican" + 0.000*"decreasing" + 0.000*"republic" + 0.000*"weave" + 0.000*"cold" + 0.000*"gad"
+2023-08-13 15:17:06,929:INFO:topic diff=0.002836, rho=0.156014
+2023-08-13 15:17:06,931:DEBUG:bound: at document #0
+2023-08-13 15:17:07,020:INFO:-7.470 per-word bound, 177.3 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:07,021:INFO:PROGRESS: pass 41, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:07,066:DEBUG:updating topics
+2023-08-13 15:17:07,071:INFO:topic #9 (0.610): 0.000*"rain" + 0.000*"pouring" + 0.000*"average" + 0.000*"ireland" + 0.000*"tbh" + 0.000*"difference" + 0.000*"santa" + 0.000*"hello" + 0.000*"bored" + 0.000*"painfully"
+2023-08-13 15:17:07,071:INFO:topic #8 (0.610): 0.003*"heart" + 0.003*"mg" + 0.002*"lexapro" + 0.002*"doe" + 0.001*"related" + 0.001*"rate" + 0.001*"attack" + 0.001*"panic" + 0.001*"episode" + 0.001*"tachycardia"
+2023-08-13 15:17:07,071:INFO:topic #5 (0.610): 0.001*"average" + 0.001*"thru" + 0.001*"weather" + 0.000*"temp" + 0.000*"dominican" + 0.000*"decreasing" + 0.000*"republic" + 0.000*"weave" + 0.000*"cold" + 0.000*"gad"
+2023-08-13 15:17:07,071:INFO:topic #4 (0.610): 0.000*"rain" + 0.000*"pouring" + 0.000*"average" + 0.000*"ireland" + 0.000*"tbh" + 0.000*"difference" + 0.000*"santa" + 0.000*"hello" + 0.000*"painfully" + 0.000*"bored"
+2023-08-13 15:17:07,071:INFO:topic #2 (0.610): 0.002*"potassium" + 0.001*"certainly" + 0.001*"sodium" + 0.001*"bedridden" + 0.001*"hypokalemia" + 0.001*"electrolyte" + 0.001*"nutrition" + 0.000*"upon" + 0.000*"specifically" + 0.000*"ma"
+2023-08-13 15:17:07,071:INFO:topic diff=0.002833, rho=0.154149
+2023-08-13 15:17:07,074:DEBUG:bound: at document #0
+2023-08-13 15:17:07,158:INFO:-7.469 per-word bound, 177.1 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:07,159:INFO:PROGRESS: pass 42, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:07,209:DEBUG:updating topics
+2023-08-13 15:17:07,212:INFO:topic #2 (0.610): 0.002*"potassium" + 0.001*"certainly" + 0.001*"sodium" + 0.001*"bedridden" + 0.001*"hypokalemia" + 0.001*"electrolyte" + 0.001*"nutrition" + 0.000*"upon" + 0.000*"specifically" + 0.000*"ma"
+2023-08-13 15:17:07,212:INFO:topic #5 (0.610): 0.001*"average" + 0.001*"thru" + 0.001*"weather" + 0.000*"temp" + 0.000*"dominican" + 0.000*"decreasing" + 0.000*"republic" + 0.000*"weave" + 0.000*"cold" + 0.000*"gad"
+2023-08-13 15:17:07,213:INFO:topic #7 (0.610): 0.003*"amp" + 0.002*"almond" + 0.001*"brother" + 0.001*"ate" + 0.001*"mouth" + 0.001*"mum" + 0.001*"crack" + 0.001*"hed" + 0.001*"swelled" + 0.001*"milk"
+2023-08-13 15:17:07,213:INFO:topic #8 (0.610): 0.003*"heart" + 0.003*"mg" + 0.002*"lexapro" + 0.001*"related" + 0.001*"doe" + 0.001*"rate" + 0.001*"attack" + 0.001*"episode" + 0.001*"panic" + 0.001*"tachycardia"
+2023-08-13 15:17:07,213:INFO:topic #1 (0.610): 0.000*"rain" + 0.000*"pouring" + 0.000*"average" + 0.000*"ireland" + 0.000*"tbh" + 0.000*"difference" + 0.000*"santa" + 0.000*"hello" + 0.000*"existence" + 0.000*"painfully"
+2023-08-13 15:17:07,213:INFO:topic diff=0.002829, rho=0.152350
+2023-08-13 15:17:07,215:DEBUG:bound: at document #0
+2023-08-13 15:17:07,297:INFO:-7.467 per-word bound, 177.0 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:07,297:INFO:PROGRESS: pass 43, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:07,349:DEBUG:updating topics
+2023-08-13 15:17:07,353:INFO:topic #8 (0.610): 0.003*"heart" + 0.003*"mg" + 0.002*"lexapro" + 0.001*"related" + 0.001*"doe" + 0.001*"rate" + 0.001*"attack" + 0.001*"episode" + 0.001*"tachycardia" + 0.001*"blood"
+2023-08-13 15:17:07,353:INFO:topic #6 (0.610): 0.007*"like" + 0.006*"feel" + 0.005*"year" + 0.004*"anxiety" + 0.004*"time" + 0.003*"get" + 0.003*"wa" + 0.003*"thing" + 0.003*"know" + 0.003*"really"
+2023-08-13 15:17:07,353:INFO:topic #9 (0.610): 0.000*"rain" + 0.000*"pouring" + 0.000*"average" + 0.000*"ireland" + 0.000*"tbh" + 0.000*"difference" + 0.000*"santa" + 0.000*"existence" + 0.000*"hello" + 0.000*"painfully"
+2023-08-13 15:17:07,353:INFO:topic #7 (0.610): 0.003*"amp" + 0.002*"almond" + 0.001*"brother" + 0.001*"ate" + 0.001*"mouth" + 0.001*"mum" + 0.001*"crack" + 0.001*"hed" + 0.001*"swelled" + 0.001*"milk"
+2023-08-13 15:17:07,353:INFO:topic #2 (0.610): 0.002*"potassium" + 0.001*"certainly" + 0.001*"sodium" + 0.001*"bedridden" + 0.001*"hypokalemia" + 0.001*"electrolyte" + 0.001*"nutrition" + 0.000*"upon" + 0.000*"ma" + 0.000*"adequacy"
+2023-08-13 15:17:07,353:INFO:topic diff=0.002823, rho=0.150612
+2023-08-13 15:17:07,356:DEBUG:bound: at document #0
+2023-08-13 15:17:07,438:INFO:-7.466 per-word bound, 176.8 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:07,438:INFO:PROGRESS: pass 44, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:07,481:DEBUG:updating topics
+2023-08-13 15:17:07,484:INFO:topic #0 (0.610): 0.001*"mother" + 0.001*"sibling" + 0.000*"quasi" + 0.000*"scaries" + 0.000*"tribe" + 0.000*"tribal" + 0.000*"decently" + 0.000*"familial" + 0.000*"catharticword" + 0.000*"clown"
+2023-08-13 15:17:07,485:INFO:topic #5 (0.610): 0.001*"average" + 0.001*"thru" + 0.001*"weather" + 0.000*"temp" + 0.000*"dominican" + 0.000*"decreasing" + 0.000*"republic" + 0.000*"weave" + 0.000*"cold" + 0.000*"gad"
+2023-08-13 15:17:07,485:INFO:topic #7 (0.610): 0.003*"amp" + 0.002*"almond" + 0.001*"brother" + 0.001*"ate" + 0.001*"mouth" + 0.001*"mum" + 0.001*"crack" + 0.001*"hed" + 0.001*"swelled" + 0.001*"milk"
+2023-08-13 15:17:07,485:INFO:topic #4 (0.610): 0.000*"rain" + 0.000*"pouring" + 0.000*"ireland" + 0.000*"average" + 0.000*"tbh" + 0.000*"difference" + 0.000*"existence" + 0.000*"santa" + 0.000*"hello" + 0.000*"painfully"
+2023-08-13 15:17:07,485:INFO:topic #6 (0.610): 0.007*"like" + 0.006*"feel" + 0.005*"year" + 0.004*"anxiety" + 0.004*"time" + 0.003*"get" + 0.003*"thing" + 0.003*"wa" + 0.003*"know" + 0.003*"really"
+2023-08-13 15:17:07,485:INFO:topic diff=0.002804, rho=0.148932
+2023-08-13 15:17:07,488:DEBUG:bound: at document #0
+2023-08-13 15:17:07,575:INFO:-7.465 per-word bound, 176.7 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:07,575:INFO:PROGRESS: pass 45, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:07,619:DEBUG:updating topics
+2023-08-13 15:17:07,622:INFO:topic #9 (0.610): 0.000*"pouring" + 0.000*"rain" + 0.000*"ireland" + 0.000*"average" + 0.000*"tbh" + 0.000*"difference" + 0.000*"existence" + 0.000*"santa" + 0.000*"hello" + 0.000*"painfully"
+2023-08-13 15:17:07,622:INFO:topic #4 (0.610): 0.000*"pouring" + 0.000*"rain" + 0.000*"ireland" + 0.000*"average" + 0.000*"tbh" + 0.000*"difference" + 0.000*"existence" + 0.000*"santa" + 0.000*"hello" + 0.000*"bored"
+2023-08-13 15:17:07,622:INFO:topic #0 (0.610): 0.001*"mother" + 0.001*"sibling" + 0.000*"quasi" + 0.000*"tribe" + 0.000*"scaries" + 0.000*"decently" + 0.000*"familial" + 0.000*"tribal" + 0.000*"catharticword" + 0.000*"clown"
+2023-08-13 15:17:07,622:INFO:topic #6 (0.610): 0.007*"like" + 0.006*"feel" + 0.005*"year" + 0.004*"anxiety" + 0.004*"time" + 0.003*"get" + 0.003*"thing" + 0.003*"wa" + 0.003*"know" + 0.003*"really"
+2023-08-13 15:17:07,623:INFO:topic #2 (0.610): 0.002*"potassium" + 0.001*"certainly" + 0.001*"sodium" + 0.001*"bedridden" + 0.001*"hypokalemia" + 0.001*"electrolyte" + 0.001*"nutrition" + 0.000*"upon" + 0.000*"ma" + 0.000*"adequacy"
+2023-08-13 15:17:07,623:INFO:topic diff=0.002778, rho=0.147308
+2023-08-13 15:17:07,625:DEBUG:bound: at document #0
+2023-08-13 15:17:07,712:INFO:-7.464 per-word bound, 176.5 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:07,713:INFO:PROGRESS: pass 46, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:07,764:DEBUG:updating topics
+2023-08-13 15:17:07,768:INFO:topic #2 (0.610): 0.002*"potassium" + 0.001*"certainly" + 0.001*"sodium" + 0.001*"bedridden" + 0.001*"hypokalemia" + 0.001*"electrolyte" + 0.001*"nutrition" + 0.000*"upon" + 0.000*"ma" + 0.000*"adequacy"
+2023-08-13 15:17:07,768:INFO:topic #0 (0.610): 0.001*"mother" + 0.001*"sibling" + 0.000*"tribe" + 0.000*"scaries" + 0.000*"quasi" + 0.000*"familial" + 0.000*"decently" + 0.000*"tribal" + 0.000*"clown" + 0.000*"catharticword"
+2023-08-13 15:17:07,768:INFO:topic #1 (0.610): 0.000*"rain" + 0.000*"pouring" + 0.000*"ireland" + 0.000*"average" + 0.000*"difference" + 0.000*"tbh" + 0.000*"existence" + 0.000*"santa" + 0.000*"hello" + 0.000*"painfully"
+2023-08-13 15:17:07,768:INFO:topic #7 (0.610): 0.003*"amp" + 0.002*"almond" + 0.001*"ate" + 0.001*"mouth" + 0.001*"brother" + 0.001*"mum" + 0.001*"crack" + 0.001*"hed" + 0.001*"swelled" + 0.001*"milk"
+2023-08-13 15:17:07,768:INFO:topic #5 (0.610): 0.001*"average" + 0.001*"thru" + 0.001*"weather" + 0.000*"dominican" + 0.000*"temp" + 0.000*"republic" + 0.000*"decreasing" + 0.000*"weave" + 0.000*"cold" + 0.000*"gad"
+2023-08-13 15:17:07,768:INFO:topic diff=0.002766, rho=0.145735
+2023-08-13 15:17:07,771:DEBUG:bound: at document #0
+2023-08-13 15:17:07,853:INFO:-7.462 per-word bound, 176.4 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:07,854:INFO:PROGRESS: pass 47, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:07,907:DEBUG:updating topics
+2023-08-13 15:17:07,910:INFO:topic #7 (0.610): 0.003*"amp" + 0.002*"almond" + 0.001*"ate" + 0.001*"mouth" + 0.001*"brother" + 0.001*"mum" + 0.001*"crack" + 0.001*"hed" + 0.001*"swelled" + 0.001*"milk"
+2023-08-13 15:17:07,912:INFO:topic #0 (0.610): 0.001*"mother" + 0.001*"sibling" + 0.000*"quasi" + 0.000*"scaries" + 0.000*"tribe" + 0.000*"tribal" + 0.000*"decently" + 0.000*"familial" + 0.000*"clown" + 0.000*"catharticword"
+2023-08-13 15:17:07,912:INFO:topic #4 (0.610): 0.000*"ireland" + 0.000*"rain" + 0.000*"pouring" + 0.000*"average" + 0.000*"existence" + 0.000*"difference" + 0.000*"tbh" + 0.000*"santa" + 0.000*"painfully" + 0.000*"bored"
+2023-08-13 15:17:07,913:INFO:topic #9 (0.610): 0.000*"ireland" + 0.000*"rain" + 0.000*"pouring" + 0.000*"average" + 0.000*"existence" + 0.000*"difference" + 0.000*"tbh" + 0.000*"santa" + 0.000*"painfully" + 0.000*"bored"
+2023-08-13 15:17:07,913:INFO:topic #6 (0.610): 0.006*"like" + 0.006*"feel" + 0.005*"year" + 0.004*"anxiety" + 0.003*"time" + 0.003*"get" + 0.003*"thing" + 0.003*"know" + 0.003*"really" + 0.003*"make"
+2023-08-13 15:17:07,913:INFO:topic diff=0.002755, rho=0.144211
+2023-08-13 15:17:07,918:DEBUG:bound: at document #0
+2023-08-13 15:17:08,132:INFO:-7.461 per-word bound, 176.2 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:08,132:INFO:PROGRESS: pass 48, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:08,190:DEBUG:updating topics
+2023-08-13 15:17:08,194:INFO:topic #4 (0.610): 0.000*"ireland" + 0.000*"rain" + 0.000*"pouring" + 0.000*"average" + 0.000*"existence" + 0.000*"difference" + 0.000*"tbh" + 0.000*"santa" + 0.000*"painfully" + 0.000*"bored"
+2023-08-13 15:17:08,194:INFO:topic #6 (0.610): 0.006*"like" + 0.006*"feel" + 0.005*"year" + 0.004*"anxiety" + 0.003*"time" + 0.003*"thing" + 0.003*"get" + 0.003*"know" + 0.003*"make" + 0.003*"really"
+2023-08-13 15:17:08,194:INFO:topic #0 (0.610): 0.001*"mother" + 0.001*"sibling" + 0.001*"scaries" + 0.001*"tribe" + 0.001*"quasi" + 0.001*"familial" + 0.001*"catharticword" + 0.001*"clown" + 0.001*"decently" + 0.001*"tribal"
+2023-08-13 15:17:08,194:INFO:topic #8 (0.610): 0.003*"heart" + 0.002*"mg" + 0.001*"lexapro" + 0.001*"rate" + 0.001*"related" + 0.001*"doe" + 0.001*"tachycardia" + 0.001*"episode" + 0.001*"blood" + 0.001*"psychiatrist"
+2023-08-13 15:17:08,194:INFO:topic #2 (0.610): 0.002*"potassium" + 0.001*"certainly" + 0.001*"sodium" + 0.001*"bedridden" + 0.001*"hypokalemia" + 0.001*"electrolyte" + 0.001*"nutrition" + 0.000*"upon" + 0.000*"ma" + 0.000*"adequacy"
+2023-08-13 15:17:08,195:INFO:topic diff=0.002743, rho=0.142735
+2023-08-13 15:17:08,197:DEBUG:bound: at document #0
+2023-08-13 15:17:08,310:INFO:-7.460 per-word bound, 176.1 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:08,311:INFO:PROGRESS: pass 49, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:08,366:DEBUG:updating topics
+2023-08-13 15:17:08,372:INFO:topic #8 (0.610): 0.003*"heart" + 0.002*"mg" + 0.001*"lexapro" + 0.001*"rate" + 0.001*"doe" + 0.001*"related" + 0.001*"tachycardia" + 0.001*"episode" + 0.001*"blood" + 0.001*"psychiatrist"
+2023-08-13 15:17:08,372:INFO:topic #6 (0.610): 0.006*"like" + 0.006*"feel" + 0.004*"year" + 0.004*"anxiety" + 0.003*"time" + 0.003*"thing" + 0.003*"get" + 0.003*"know" + 0.003*"make" + 0.003*"really"
+2023-08-13 15:17:08,372:INFO:topic #5 (0.610): 0.001*"average" + 0.001*"thru" + 0.001*"weather" + 0.000*"dominican" + 0.000*"temp" + 0.000*"decreasing" + 0.000*"weave" + 0.000*"republic" + 0.000*"cold" + 0.000*"gad"
+2023-08-13 15:17:08,372:INFO:topic #0 (0.610): 0.001*"mother" + 0.001*"sibling" + 0.001*"quasi" + 0.001*"scaries" + 0.001*"tribe" + 0.001*"tribal" + 0.001*"clown" + 0.001*"decently" + 0.001*"catharticword" + 0.001*"familial"
+2023-08-13 15:17:08,372:INFO:topic #3 (0.610): 0.018*"wa" + 0.013*"im" + 0.011*"like" + 0.009*"time" + 0.009*"feel" + 0.009*"get" + 0.008*"year" + 0.008*"life" + 0.007*"know" + 0.007*"anxiety"
+2023-08-13 15:17:08,372:INFO:topic diff=0.002716, rho=0.141303
+2023-08-13 15:17:08,375:DEBUG:bound: at document #0
+2023-08-13 15:17:08,512:INFO:-7.459 per-word bound, 175.9 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:08,513:INFO:PROGRESS: pass 50, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:08,565:DEBUG:updating topics
+2023-08-13 15:17:08,569:INFO:topic #1 (0.610): 0.000*"ireland" + 0.000*"pouring" + 0.000*"rain" + 0.000*"existence" + 0.000*"average" + 0.000*"difference" + 0.000*"tbh" + 0.000*"santa" + 0.000*"painfully" + 0.000*"bored"
+2023-08-13 15:17:08,569:INFO:topic #6 (0.610): 0.006*"like" + 0.005*"feel" + 0.004*"year" + 0.004*"anxiety" + 0.003*"time" + 0.003*"thing" + 0.003*"get" + 0.003*"know" + 0.003*"make" + 0.002*"really"
+2023-08-13 15:17:08,570:INFO:topic #8 (0.610): 0.003*"heart" + 0.002*"mg" + 0.001*"lexapro" + 0.001*"rate" + 0.001*"doe" + 0.001*"related" + 0.001*"tachycardia" + 0.001*"episode" + 0.001*"blood" + 0.001*"psychiatrist"
+2023-08-13 15:17:08,570:INFO:topic #4 (0.610): 0.000*"ireland" + 0.000*"rain" + 0.000*"pouring" + 0.000*"existence" + 0.000*"average" + 0.000*"difference" + 0.000*"tbh" + 0.000*"santa" + 0.000*"painfully" + 0.000*"bored"
+2023-08-13 15:17:08,570:INFO:topic #3 (0.610): 0.018*"wa" + 0.013*"im" + 0.011*"like" + 0.009*"time" + 0.009*"feel" + 0.009*"get" + 0.008*"year" + 0.008*"life" + 0.007*"know" + 0.007*"anxiety"
+2023-08-13 15:17:08,570:INFO:topic diff=0.002677, rho=0.139913
+2023-08-13 15:17:08,574:DEBUG:bound: at document #0
+2023-08-13 15:17:08,683:INFO:-7.458 per-word bound, 175.8 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:08,683:INFO:PROGRESS: pass 51, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:08,737:DEBUG:updating topics
+2023-08-13 15:17:08,741:INFO:topic #0 (0.610): 0.001*"mother" + 0.001*"sibling" + 0.001*"scaries" + 0.001*"quasi" + 0.001*"tribe" + 0.001*"catharticword" + 0.001*"familial" + 0.001*"clown" + 0.001*"tribal" + 0.001*"decently"
+2023-08-13 15:17:08,741:INFO:topic #6 (0.610): 0.006*"like" + 0.005*"feel" + 0.004*"year" + 0.004*"anxiety" + 0.003*"time" + 0.003*"thing" + 0.003*"get" + 0.002*"know" + 0.002*"make" + 0.002*"really"
+2023-08-13 15:17:08,741:INFO:topic #5 (0.610): 0.001*"average" + 0.001*"thru" + 0.001*"weather" + 0.000*"decreasing" + 0.000*"temp" + 0.000*"dominican" + 0.000*"republic" + 0.000*"weave" + 0.000*"cold" + 0.000*"gad"
+2023-08-13 15:17:08,741:INFO:topic #9 (0.610): 0.000*"ireland" + 0.000*"rain" + 0.000*"pouring" + 0.000*"existence" + 0.000*"average" + 0.000*"difference" + 0.000*"tbh" + 0.000*"santa" + 0.000*"painfully" + 0.000*"bored"
+2023-08-13 15:17:08,741:INFO:topic #8 (0.610): 0.003*"heart" + 0.002*"mg" + 0.001*"rate" + 0.001*"lexapro" + 0.001*"doe" + 0.001*"related" + 0.001*"tachycardia" + 0.001*"episode" + 0.001*"blood" + 0.001*"psychiatrist"
+2023-08-13 15:17:08,742:INFO:topic diff=0.002643, rho=0.138563
+2023-08-13 15:17:08,745:DEBUG:bound: at document #0
+2023-08-13 15:17:08,830:INFO:-7.456 per-word bound, 175.6 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:08,832:INFO:PROGRESS: pass 52, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:08,871:DEBUG:updating topics
+2023-08-13 15:17:08,875:INFO:topic #6 (0.610): 0.005*"like" + 0.005*"feel" + 0.004*"year" + 0.003*"anxiety" + 0.003*"time" + 0.003*"thing" + 0.002*"get" + 0.002*"make" + 0.002*"know" + 0.002*"anxious"
+2023-08-13 15:17:08,875:INFO:topic #5 (0.610): 0.001*"average" + 0.001*"thru" + 0.001*"weather" + 0.000*"dominican" + 0.000*"temp" + 0.000*"republic" + 0.000*"decreasing" + 0.000*"weave" + 0.000*"cold" + 0.000*"gad"
+2023-08-13 15:17:08,875:INFO:topic #3 (0.610): 0.018*"wa" + 0.012*"im" + 0.011*"like" + 0.009*"time" + 0.009*"feel" + 0.009*"get" + 0.008*"year" + 0.008*"life" + 0.007*"know" + 0.007*"anxiety"
+2023-08-13 15:17:08,876:INFO:topic #7 (0.610): 0.002*"almond" + 0.002*"amp" + 0.001*"ate" + 0.001*"mouth" + 0.001*"mum" + 0.001*"brother" + 0.001*"crack" + 0.001*"hed" + 0.001*"swelled" + 0.001*"milk"
+2023-08-13 15:17:08,876:INFO:topic #4 (0.610): 0.000*"ireland" + 0.000*"pouring" + 0.000*"rain" + 0.000*"existence" + 0.000*"average" + 0.000*"difference" + 0.000*"tbh" + 0.000*"santa" + 0.000*"painfully" + 0.000*"bored"
+2023-08-13 15:17:08,876:INFO:topic diff=0.002616, rho=0.137252
+2023-08-13 15:17:08,879:DEBUG:bound: at document #0
+2023-08-13 15:17:08,955:INFO:-7.455 per-word bound, 175.5 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:08,955:INFO:PROGRESS: pass 53, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:08,997:DEBUG:updating topics
+2023-08-13 15:17:09,001:INFO:topic #0 (0.610): 0.001*"mother" + 0.001*"sibling" + 0.001*"tribe" + 0.001*"scaries" + 0.001*"quasi" + 0.001*"catharticword" + 0.001*"clown" + 0.001*"familial" + 0.001*"tribal" + 0.001*"merely"
+2023-08-13 15:17:09,001:INFO:topic #1 (0.610): 0.000*"ireland" + 0.000*"rain" + 0.000*"pouring" + 0.000*"existence" + 0.000*"average" + 0.000*"difference" + 0.000*"tbh" + 0.000*"santa" + 0.000*"painfully" + 0.000*"bored"
+2023-08-13 15:17:09,001:INFO:topic #2 (0.610): 0.002*"potassium" + 0.001*"certainly" + 0.001*"sodium" + 0.001*"bedridden" + 0.001*"hypokalemia" + 0.001*"electrolyte" + 0.001*"nutrition" + 0.000*"upon" + 0.000*"ma" + 0.000*"adequacy"
+2023-08-13 15:17:09,001:INFO:topic #6 (0.610): 0.005*"like" + 0.005*"feel" + 0.004*"year" + 0.003*"anxiety" + 0.003*"time" + 0.002*"thing" + 0.002*"make" + 0.002*"get" + 0.002*"know" + 0.002*"anxious"
+2023-08-13 15:17:09,001:INFO:topic #4 (0.610): 0.000*"ireland" + 0.000*"rain" + 0.000*"pouring" + 0.000*"existence" + 0.000*"average" + 0.000*"difference" + 0.000*"tbh" + 0.000*"santa" + 0.000*"painfully" + 0.000*"bored"
+2023-08-13 15:17:09,001:INFO:topic diff=0.002590, rho=0.135977
+2023-08-13 15:17:09,004:DEBUG:bound: at document #0
+2023-08-13 15:17:09,085:INFO:-7.454 per-word bound, 175.4 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:09,086:INFO:PROGRESS: pass 54, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:09,126:DEBUG:updating topics
+2023-08-13 15:17:09,130:INFO:topic #1 (0.610): 0.000*"ireland" + 0.000*"rain" + 0.000*"pouring" + 0.000*"existence" + 0.000*"average" + 0.000*"tbh" + 0.000*"difference" + 0.000*"santa" + 0.000*"bored" + 0.000*"painfully"
+2023-08-13 15:17:09,130:INFO:topic #5 (0.610): 0.001*"average" + 0.001*"weather" + 0.001*"thru" + 0.000*"dominican" + 0.000*"temp" + 0.000*"decreasing" + 0.000*"republic" + 0.000*"weave" + 0.000*"cold" + 0.000*"gad"
+2023-08-13 15:17:09,130:INFO:topic #6 (0.610): 0.005*"like" + 0.005*"feel" + 0.004*"year" + 0.003*"anxiety" + 0.002*"time" + 0.002*"thing" + 0.002*"anxious" + 0.002*"make" + 0.002*"get" + 0.002*"know"
+2023-08-13 15:17:09,130:INFO:topic #3 (0.610): 0.018*"wa" + 0.012*"im" + 0.011*"like" + 0.009*"feel" + 0.009*"time" + 0.009*"get" + 0.008*"year" + 0.007*"life" + 0.007*"know" + 0.007*"anxiety"
+2023-08-13 15:17:09,130:INFO:topic #0 (0.610): 0.001*"mother" + 0.001*"sibling" + 0.001*"quasi" + 0.001*"scaries" + 0.001*"tribe" + 0.001*"capital" + 0.001*"personable" + 0.001*"familial" + 0.001*"decently" + 0.001*"clown"
+2023-08-13 15:17:09,131:INFO:topic diff=0.002546, rho=0.134737
+2023-08-13 15:17:09,133:DEBUG:bound: at document #0
+2023-08-13 15:17:09,212:INFO:-7.453 per-word bound, 175.2 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:09,212:INFO:PROGRESS: pass 55, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:09,263:DEBUG:updating topics
+2023-08-13 15:17:09,268:INFO:topic #9 (0.610): 0.000*"ireland" + 0.000*"existence" + 0.000*"pouring" + 0.000*"rain" + 0.000*"average" + 0.000*"tbh" + 0.000*"difference" + 0.000*"santa" + 0.000*"bored" + 0.000*"painfully"
+2023-08-13 15:17:09,269:INFO:topic #3 (0.610): 0.018*"wa" + 0.012*"im" + 0.011*"like" + 0.009*"feel" + 0.009*"time" + 0.009*"get" + 0.008*"year" + 0.007*"life" + 0.007*"know" + 0.007*"anxiety"
+2023-08-13 15:17:09,269:INFO:topic #0 (0.610): 0.001*"mother" + 0.001*"sibling" + 0.001*"tribe" + 0.001*"catharticword" + 0.001*"personable" + 0.001*"familial" + 0.001*"decently" + 0.001*"quasi" + 0.001*"pariah" + 0.001*"scaries"
+2023-08-13 15:17:09,269:INFO:topic #1 (0.610): 0.000*"ireland" + 0.000*"existence" + 0.000*"rain" + 0.000*"pouring" + 0.000*"average" + 0.000*"tbh" + 0.000*"difference" + 0.000*"santa" + 0.000*"bored" + 0.000*"painfully"
+2023-08-13 15:17:09,269:INFO:topic #4 (0.610): 0.000*"ireland" + 0.000*"existence" + 0.000*"rain" + 0.000*"pouring" + 0.000*"average" + 0.000*"tbh" + 0.000*"difference" + 0.000*"santa" + 0.000*"bored" + 0.000*"painfully"
+2023-08-13 15:17:09,270:INFO:topic diff=0.002479, rho=0.133531
+2023-08-13 15:17:09,273:DEBUG:bound: at document #0
+2023-08-13 15:17:09,357:INFO:-7.452 per-word bound, 175.1 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:09,358:INFO:PROGRESS: pass 56, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:09,398:DEBUG:updating topics
+2023-08-13 15:17:09,401:INFO:topic #2 (0.610): 0.003*"potassium" + 0.001*"certainly" + 0.001*"sodium" + 0.001*"bedridden" + 0.001*"hypokalemia" + 0.001*"electrolyte" + 0.001*"nutrition" + 0.000*"upon" + 0.000*"ma" + 0.000*"adequacy"
+2023-08-13 15:17:09,401:INFO:topic #1 (0.610): 0.000*"ireland" + 0.000*"existence" + 0.000*"rain" + 0.000*"pouring" + 0.000*"average" + 0.000*"tbh" + 0.000*"difference" + 0.000*"santa" + 0.000*"bored" + 0.000*"painfully"
+2023-08-13 15:17:09,402:INFO:topic #9 (0.610): 0.000*"ireland" + 0.000*"existence" + 0.000*"rain" + 0.000*"pouring" + 0.000*"average" + 0.000*"tbh" + 0.000*"difference" + 0.000*"santa" + 0.000*"bored" + 0.000*"painfully"
+2023-08-13 15:17:09,402:INFO:topic #0 (0.610): 0.001*"mother" + 0.001*"sibling" + 0.001*"tribal" + 0.001*"decently" + 0.001*"tribe" + 0.001*"merely" + 0.001*"clown" + 0.001*"familial" + 0.001*"capital" + 0.001*"pariah"
+2023-08-13 15:17:09,402:INFO:topic #6 (0.610): 0.005*"like" + 0.005*"feel" + 0.003*"year" + 0.003*"anxiety" + 0.002*"anxious" + 0.002*"time" + 0.002*"thing" + 0.002*"make" + 0.002*"self" + 0.002*"people"
+2023-08-13 15:17:09,402:INFO:topic diff=0.002409, rho=0.132356
+2023-08-13 15:17:09,404:DEBUG:bound: at document #0
+2023-08-13 15:17:09,481:INFO:-7.451 per-word bound, 175.0 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:09,481:INFO:PROGRESS: pass 57, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:09,524:DEBUG:updating topics
+2023-08-13 15:17:09,528:INFO:topic #4 (0.610): 0.000*"ireland" + 0.000*"existence" + 0.000*"rain" + 0.000*"pouring" + 0.000*"average" + 0.000*"tbh" + 0.000*"difference" + 0.000*"santa" + 0.000*"painfully" + 0.000*"bored"
+2023-08-13 15:17:09,528:INFO:topic #8 (0.610): 0.003*"heart" + 0.001*"rate" + 0.001*"tachycardia" + 0.001*"mg" + 0.001*"lexapro" + 0.001*"related" + 0.001*"blood" + 0.001*"doe" + 0.001*"episode" + 0.001*"vomit"
+2023-08-13 15:17:09,528:INFO:topic #9 (0.610): 0.000*"ireland" + 0.000*"existence" + 0.000*"rain" + 0.000*"pouring" + 0.000*"average" + 0.000*"tbh" + 0.000*"difference" + 0.000*"santa" + 0.000*"painfully" + 0.000*"bored"
+2023-08-13 15:17:09,528:INFO:topic #1 (0.610): 0.000*"ireland" + 0.000*"existence" + 0.000*"rain" + 0.000*"pouring" + 0.000*"average" + 0.000*"tbh" + 0.000*"difference" + 0.000*"santa" + 0.000*"painfully" + 0.000*"bored"
+2023-08-13 15:17:09,528:INFO:topic #7 (0.610): 0.002*"almond" + 0.001*"amp" + 0.001*"ate" + 0.001*"mouth" + 0.001*"swelled" + 0.001*"milk" + 0.001*"lip" + 0.001*"burning" + 0.001*"crack" + 0.001*"hed"
+2023-08-13 15:17:09,528:INFO:topic diff=0.002356, rho=0.131211
+2023-08-13 15:17:09,531:DEBUG:bound: at document #0
+2023-08-13 15:17:09,613:INFO:-7.450 per-word bound, 174.9 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:09,613:INFO:PROGRESS: pass 58, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:09,651:DEBUG:updating topics
+2023-08-13 15:17:09,655:INFO:topic #7 (0.610): 0.002*"almond" + 0.001*"amp" + 0.001*"ate" + 0.001*"mouth" + 0.001*"swelled" + 0.001*"milk" + 0.001*"lip" + 0.001*"burning" + 0.001*"crack" + 0.001*"hed"
+2023-08-13 15:17:09,655:INFO:topic #2 (0.610): 0.003*"potassium" + 0.001*"certainly" + 0.001*"sodium" + 0.001*"bedridden" + 0.001*"hypokalemia" + 0.001*"electrolyte" + 0.001*"nutrition" + 0.000*"upon" + 0.000*"ma" + 0.000*"adequacy"
+2023-08-13 15:17:09,656:INFO:topic #6 (0.610): 0.004*"like" + 0.004*"feel" + 0.003*"year" + 0.003*"anxiety" + 0.002*"anxious" + 0.002*"self" + 0.002*"thing" + 0.002*"time" + 0.002*"make" + 0.002*"people"
+2023-08-13 15:17:09,656:INFO:topic #9 (0.610): 0.000*"ireland" + 0.000*"existence" + 0.000*"rain" + 0.000*"pouring" + 0.000*"average" + 0.000*"tbh" + 0.000*"difference" + 0.000*"santa" + 0.000*"painfully" + 0.000*"bored"
+2023-08-13 15:17:09,656:INFO:topic #1 (0.610): 0.000*"ireland" + 0.000*"existence" + 0.000*"rain" + 0.000*"pouring" + 0.000*"average" + 0.000*"tbh" + 0.000*"difference" + 0.000*"santa" + 0.000*"painfully" + 0.000*"bored"
+2023-08-13 15:17:09,656:INFO:topic diff=0.002312, rho=0.130096
+2023-08-13 15:17:09,659:DEBUG:bound: at document #0
+2023-08-13 15:17:09,749:INFO:-7.449 per-word bound, 174.8 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:09,750:INFO:PROGRESS: pass 59, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:09,805:DEBUG:updating topics
+2023-08-13 15:17:09,810:INFO:topic #0 (0.610): 0.001*"mother" + 0.001*"sibling" + 0.001*"scaries" + 0.001*"capital" + 0.001*"quasi" + 0.001*"personable" + 0.001*"pariah" + 0.001*"tribe" + 0.001*"clown" + 0.001*"decently"
+2023-08-13 15:17:09,810:INFO:topic #2 (0.610): 0.003*"potassium" + 0.001*"certainly" + 0.001*"sodium" + 0.001*"bedridden" + 0.001*"hypokalemia" + 0.001*"electrolyte" + 0.001*"nutrition" + 0.000*"upon" + 0.000*"adequacy" + 0.000*"ma"
+2023-08-13 15:17:09,810:INFO:topic #6 (0.610): 0.004*"feel" + 0.004*"like" + 0.003*"year" + 0.003*"anxiety" + 0.002*"anxious" + 0.002*"self" + 0.002*"thing" + 0.002*"make" + 0.002*"time" + 0.002*"people"
+2023-08-13 15:17:09,810:INFO:topic #1 (0.610): 0.000*"ireland" + 0.000*"existence" + 0.000*"rain" + 0.000*"pouring" + 0.000*"average" + 0.000*"tbh" + 0.000*"difference" + 0.000*"santa" + 0.000*"painfully" + 0.000*"bored"
+2023-08-13 15:17:09,811:INFO:topic #8 (0.610): 0.003*"heart" + 0.001*"rate" + 0.001*"tachycardia" + 0.001*"mg" + 0.001*"blood" + 0.001*"vomit" + 0.001*"related" + 0.001*"upright" + 0.001*"difference" + 0.001*"doe"
+2023-08-13 15:17:09,811:INFO:topic diff=0.002244, rho=0.129009
+2023-08-13 15:17:09,813:DEBUG:bound: at document #0
+2023-08-13 15:17:09,934:INFO:-7.448 per-word bound, 174.7 perplexity estimate based on a held-out corpus of 168 documents with 23642 words
+2023-08-13 15:17:09,935:INFO:PROGRESS: pass 60, dispatched chunk #0 = documents up to #168/168, outstanding queue size 1
+2023-08-13 15:17:09,986:DEBUG:updating topics
+2023-08-13 15:17:09,990:INFO:topic #9 (0.610): 0.000*"ireland" + 0.000*"existence" + 0.000*"rain" + 0.000*"pouring" + 0.000*"average" + 0.000*"tbh" + 0.000*"difference" + 0.000*"santa" + 0.000*"painfully" + 0.000*"bored"
+2023-08-13 15:17:09,990:INFO:topic #5 (0.610): 0.001*"average" + 0.001*"weather" + 0.001*"thru" + 0.000*"temp" + 0.000*"republic" + 0.000*"decreasing" + 0.000*"weave" + 0.000*"dominican" + 0.000*"cold" + 0.000*"gad"
+2023-08-13 15:17:09,990:INFO:topic #6 (0.610): 0.004*"feel" + 0.004*"like" + 0.003*"year" + 0.003*"anxiety" + 0.002*"anxious" + 0.002*"self" + 0.002*"thing" + 0.002*"people" + 0.002*"make" + 0.002*"time"
+2023-08-13 15:17:09,990:INFO:topic #2 (0.610): 0.003*"potassium" + 0.001*"certainly" + 0.001*"sodium" + 0.001*"bedridden" + 0.001*"hypokalemia" + 0.001*"electrolyte" + 0.001*"nutrition" + 0.000*"upon" + 0.000*"adequacy" + 0.000*"ma"
+2023-08-13 15:17:09,990:INFO:topic #1 (0.610): 0.000*"ireland" + 0.000*"existence" + 0.000*"rain" + 0.000*"pouring" + 0.000*"average" + 0.000*"tbh" + 0.000*"difference" + 0.000*"santa" + 0.000*"painfully" + 0.000*"bored"
+2023-08-13 15:17:09,990:INFO:topic diff=0.002145, rho=0.127949
+2023-08-13 15:17:09,993:DEBUG:bound: at document #0
