@@ -77,6 +77,16 @@ def get_proba(posts):
                 proba = logistic(model.decision_function([get_liwc_embedding(post)]))
                 proba_distribution[subreddit] = proba
         subreddit_distribution[max(proba_distribution, key=proba_distribution.get)] += 1
+        """
+        maximum_prob = proba_distribution[max(proba_distribution, key=proba_distribution.get)]
+        del proba_distribution[max(proba_distribution, key=proba_distribution.get)]
+        # check if any values are `maximum_prob - 0.01` or greater
+        threshold_prob = maximum_prob - 0.01
+        proba_distribution = {k:v for (k,v) in proba_distribution.items() if v > threshold_prob}
+        for key, value in proba_distribution.items():
+            subreddit_distribution[key] += 1
+        """
+        
     return subreddit_distribution
 
 def get_topics(posts):
