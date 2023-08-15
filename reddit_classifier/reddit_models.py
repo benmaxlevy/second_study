@@ -9,7 +9,7 @@ import sys
 import csv
 import nltk
 nltk.download('wordnet')
-import LIWCMeta
+from . import LIWCMeta
 from nltk.stem import WordNetLemmatizer
 
 lemmatizer = WordNetLemmatizer()
@@ -17,10 +17,12 @@ lemmatizer = WordNetLemmatizer()
 subreddit_model_dict = {'psychosis':'linear_svm', 'stress':'linear_svm', 'selfharm':'linear_svm',
  'schizophrenia':'linear_svm', 'SuicideWatch':'linear_svm', 'depression':'linear_svm', 'anxiety':'linear_svm'}
 
-# Load all the models
-mh_model_list = [joblib.load('Models/'+x+'_liwc_'+y+'.joblib') for x,y in subreddit_model_dict.items()]
+import os
 
-mh_model_dict = {x:joblib.load('Models/'+x+'_liwc_'+y+'.joblib') for x,y in subreddit_model_dict.items()}
+# Load all the models
+mh_model_list = [joblib.load(os.path.join(os.getcwd(),'reddit_classifier/Models/'+x+'_liwc_'+y+'.joblib')) for x,y in subreddit_model_dict.items()]
+
+mh_model_dict = {x:joblib.load('reddit_classifier/Models/'+x+'_liwc_'+y+'.joblib') for x,y in subreddit_model_dict.items()}
 
 
 # Dictionary for the indices of the LIWC categories
@@ -58,17 +60,34 @@ def get_liwc_embedding(post):
         result[idx] = value/len(post.split(' '))
     return result
 
-
 def logistic(x):
     # generic logistic regression for understanding probabilities of topics
     ex = np.exp(-x)
     return 1/(1+ex)
 
 def get_proba(posts):
+    subreddit_distribution = {'psychosis':0, 'stress':0, 'selfharm':0, 'schizophrenia':0, 'SuicideWatch':0, 'depression':0, 'anxiety':0}
     # score=0: not the subreddit, score=0: the subreddit
     for post in posts:
         # dictionary for each subreddit's probabilities; need to account for probabilties associated with score=0
-        
+        proba_distribution = {'psychosis':0, 'stress':0, 'selfharm':0, 'schizophrenia':0, 'SuicideWatch':0, 'depression':0, 'anxiety':0}
+        for subreddit, model in mh_model_dict.items():  
+            score = model.predict([get_liwc_embedding(post)])
+            if score == 1:
+                proba = logistic(model.decision_function([get_liwc_embedding(post)]))
+                proba_distribution[subreddit] = proba
+        subreddit_distribution[max(proba_distribution, key=proba_distribution.get)] += 1
+    return subreddit_distribution
+
+def get_topics(posts):
+    # score=0: not the subreddit, score=1: the subreddit
+    # final dict
+    subreddit_distribution = {'psychosis':0, 'stress':0, 'selfharm':0, 'schizophrenia':0, 'SuicideWatch':0, 'depression':0, 'anxiety':0}
+    for post in posts:
+        # dictionary for each subreddit's probabilities; need to account for probabilties associated with score=0
+        # disregard any score=0 (not looking at what posts are not)
         for subreddit, model in mh_model_dict.items():
-            score = model.decision_function([get_liwc_embedding(text)])
-            print(f'{subreddit}: Score: {logistic(score)}')
+            score = model.predict([get_liwc_embedding(post)])
+            if score == 1:
+                subreddit_distribution[subreddit] += 1
+    return subreddit_distribution
